@@ -1,5 +1,5 @@
 import { Modal } from './Modal.tsx';
-import { EuBand } from './Plate.tsx';
+import { Plate } from './Plate.tsx';
 import { IconCheck, IconX } from './Icons.tsx';
 
 const EXAMPLES: [string, boolean, string][] = [
@@ -15,19 +15,13 @@ export function HowToPlayModal({ onClose }: { onClose: () => void }) {
   return (
     <Modal title="Cómo jugar" onClose={onClose} wide>
       <div className="space-y-6 text-sm">
-        <figure aria-label="Ejemplo de matrícula 0027 BRC" className="plate-frame">
-          <div className="mx-auto flex aspect-[4.4/1] max-w-sm overflow-hidden rounded-[10px] border-[3px] border-ink bg-plate">
-            <EuBand />
-            <div className="plate-chars flex flex-1 items-center justify-center gap-[6%] plate-size-sm">
-              <span className="rounded-md bg-road-soft px-1 text-road">0027</span>
-              <span className="rounded-md bg-combo-soft px-1 text-combo">BRC</span>
-            </div>
-          </div>
-          <figcaption className="mx-auto mt-2 grid max-w-sm grid-cols-2 gap-2 text-xs">
+        <div>
+          <Plate score={27} pattern="brc" explain className="max-w-sm" label="Ejemplo de matrícula 0027 BRC" />
+          <div className="mx-auto mt-2 grid max-w-sm grid-cols-2 gap-2 text-xs">
             <span className="rounded-lg bg-road-soft p-2 text-road"><b>Números</b> = tu puntuación acumulada (siempre 4 cifras).</span>
             <span className="rounded-lg bg-combo-soft p-2 text-combo"><b>Letras</b> = el reto: las 3 consonantes que debes usar.</span>
-          </figcaption>
-        </figure>
+          </div>
+        </div>
 
         <section>
           <h3 className="mb-2 font-black uppercase tracking-wide">Reglas</h3>
