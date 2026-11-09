@@ -1,0 +1,1 @@
+Copia aquí el archivo MESPREG.ttf con ese nombre exacto (public/fonts/MESPREG.ttf).
