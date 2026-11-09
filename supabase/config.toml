@@ -1,0 +1,14 @@
+# Configuración mínima para Supabase CLI. Los valores no indicados usan los defaults del CLI.
+project_id = "matriculas"
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql", "./seed/words.sql"]
+
+[auth]
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:8888", "http://localhost:4173"]
+enable_anonymous_sign_ins = true
+
+[auth.email]
+enable_signup = true

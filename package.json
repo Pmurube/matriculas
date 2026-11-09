@@ -1,0 +1,46 @@
+{
+  "name": "matriculas",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Microjuego de palabras basado en matrículas españolas. Ver SPEC.md.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev:netlify": "netlify dev",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "words:validate": "node scripts/words-cli.ts validate",
+    "words:clean": "node scripts/words-cli.ts clean",
+    "words:import": "node scripts/words-cli.ts import",
+    "words:sql": "node scripts/words-cli.ts import --write-sql",
+    "words:push": "node scripts/words-cli.ts import --push",
+    "check:security": "node scripts/check-security.ts",
+    "verify": "npm run lint && npm run typecheck && npm test && npm run build && npm run check:security"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@tailwindcss/vite": "^4.1.10",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^10.8.1",
+    "tailwindcss": "^4.1.10",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.56.1",
+    "vite": "^8.1.6",
+    "vitest": "^4.1.12"
+  }
+}

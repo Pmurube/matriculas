@@ -1,0 +1,8965 @@
+{
+  "source": "Palabras.rtf",
+  "strict": false,
+  "summary": {
+    "totalRows": 16677,
+    "accepted": 15635,
+    "rejected": 1042,
+    "flagged": 348,
+    "byReason": {
+      "consonantes_distintas_de_3": 943,
+      "abreviatura": 15,
+      "nombre_propio": 76,
+      "caracteres_no_validos": 1,
+      "multipalabra": 5,
+      "afijo": 2
+    },
+    "byFlag": {
+      "posible_forma_verbal": 114,
+      "posible_plural": 234
+    },
+    "patterns": 2863
+  },
+  "rejected": [
+    {
+      "row": 95,
+      "raw": "abrepuño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRPÑ"
+    },
+    {
+      "row": 96,
+      "raw": "abrigaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRGÑ"
+    },
+    {
+      "row": 100,
+      "raw": "abrileña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRLÑ"
+    },
+    {
+      "row": 101,
+      "raw": "abrileño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRLÑ"
+    },
+    {
+      "row": 118,
+      "raw": "abuñolada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLD"
+    },
+    {
+      "row": 119,
+      "raw": "abuñolado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLD"
+    },
+    {
+      "row": 120,
+      "raw": "abuñolar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLR"
+    },
+    {
+      "row": 121,
+      "raw": "abuñuelada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLD"
+    },
+    {
+      "row": 122,
+      "raw": "abuñuelado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLD"
+    },
+    {
+      "row": 123,
+      "raw": "abuñuelar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLR"
+    },
+    {
+      "row": 135,
+      "raw": "acabañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBÑR"
+    },
+    {
+      "row": 148,
+      "raw": "acaloñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLÑR"
+    },
+    {
+      "row": 155,
+      "raw": "acañonear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNR"
+    },
+    {
+      "row": 158,
+      "raw": "acañutada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑTD"
+    },
+    {
+      "row": 159,
+      "raw": "acañutado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑTD"
+    },
+    {
+      "row": 362,
+      "raw": "acuñación",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑCN"
+    },
+    {
+      "row": 363,
+      "raw": "acuñador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDR"
+    },
+    {
+      "row": 364,
+      "raw": "acuñadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDR"
+    },
+    {
+      "row": 406,
+      "raw": "adeliñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DLÑR"
+    },
+    {
+      "row": 469,
+      "raw": "ADSL",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 476,
+      "raw": "adueñarse",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑRS"
+    },
+    {
+      "row": 604,
+      "raw": "agañotar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑTR"
+    },
+    {
+      "row": 645,
+      "raw": "agosteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GSTÑ"
+    },
+    {
+      "row": 646,
+      "raw": "agosteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GSTÑ"
+    },
+    {
+      "row": 652,
+      "raw": "agraceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRCÑ"
+    },
+    {
+      "row": 653,
+      "raw": "agraceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRCÑ"
+    },
+    {
+      "row": 897,
+      "raw": "alaskeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LSKÑ"
+    },
+    {
+      "row": 898,
+      "raw": "alaskeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LSKÑ"
+    },
+    {
+      "row": 918,
+      "raw": "albañal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBÑL"
+    },
+    {
+      "row": 919,
+      "raw": "albañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBÑR"
+    },
+    {
+      "row": 920,
+      "raw": "albañear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBÑR"
+    },
+    {
+      "row": 921,
+      "raw": "albañería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBÑR"
+    },
+    {
+      "row": 922,
+      "raw": "albañil",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBÑL"
+    },
+    {
+      "row": 923,
+      "raw": "albañila",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBÑL"
+    },
+    {
+      "row": 924,
+      "raw": "albañir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBÑR"
+    },
+    {
+      "row": 928,
+      "raw": "albariño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LBRÑ"
+    },
+    {
+      "row": 947,
+      "raw": "alcaceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LCCÑ"
+    },
+    {
+      "row": 953,
+      "raw": "Alcalá",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 954,
+      "raw": "alcalaeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LCLÑ"
+    },
+    {
+      "row": 955,
+      "raw": "alcalaeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LCLÑ"
+    },
+    {
+      "row": 964,
+      "raw": "alcireña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LCRÑ"
+    },
+    {
+      "row": 965,
+      "raw": "alcireño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LCRÑ"
+    },
+    {
+      "row": 1040,
+      "raw": "alfareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LFRÑ"
+    },
+    {
+      "row": 1041,
+      "raw": "alfareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LFRÑ"
+    },
+    {
+      "row": 1044,
+      "raw": "alfeñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LFÑR"
+    },
+    {
+      "row": 1045,
+      "raw": "alfeñique",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LFÑQ"
+    },
+    {
+      "row": 1051,
+      "raw": "algabeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGBÑ"
+    },
+    {
+      "row": 1052,
+      "raw": "algabeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGBÑ"
+    },
+    {
+      "row": 1078,
+      "raw": "alheñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LHÑR"
+    },
+    {
+      "row": 1083,
+      "raw": "alhuceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LHCÑ"
+    },
+    {
+      "row": 1110,
+      "raw": "alimañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMÑR"
+    },
+    {
+      "row": 1114,
+      "raw": "aliñador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑDR"
+    },
+    {
+      "row": 1115,
+      "raw": "aliñadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑDR"
+    },
+    {
+      "row": 1150,
+      "raw": "Allen",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1220,
+      "raw": "alpañata",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LPÑT"
+    },
+    {
+      "row": 1255,
+      "raw": "alueñarse",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑRS"
+    },
+    {
+      "row": 1275,
+      "raw": "alzapaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LZPÑ"
+    },
+    {
+      "row": 1299,
+      "raw": "amarañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑR"
+    },
+    {
+      "row": 1326,
+      "raw": "ambateña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MBTÑ"
+    },
+    {
+      "row": 1327,
+      "raw": "ambateño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MBTÑ"
+    },
+    {
+      "row": 1346,
+      "raw": "América",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1402,
+      "raw": "ampère",
+      "reason": "caracteres_no_validos",
+      "detail": "Caracteres: U+00E8"
+    },
+    {
+      "row": 1417,
+      "raw": "amuñecada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑCD"
+    },
+    {
+      "row": 1418,
+      "raw": "amuñecado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑCD"
+    },
+    {
+      "row": 1430,
+      "raw": "añacalero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑCLR"
+    },
+    {
+      "row": 1434,
+      "raw": "añadidura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑDDR"
+    },
+    {
+      "row": 1443,
+      "raw": "añafilera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑFLR"
+    },
+    {
+      "row": 1444,
+      "raw": "añafilero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑFLR"
+    },
+    {
+      "row": 1462,
+      "raw": "añascar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑSCR"
+    },
+    {
+      "row": 1485,
+      "raw": "ancuviña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NCVÑ"
+    },
+    {
+      "row": 1528,
+      "raw": "Ángela",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1534,
+      "raw": "angoleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGLÑ"
+    },
+    {
+      "row": 1535,
+      "raw": "angoleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGLÑ"
+    },
+    {
+      "row": 1597,
+      "raw": "añorante",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑRNT"
+    },
+    {
+      "row": 1598,
+      "raw": "añoranza",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑRNZ"
+    },
+    {
+      "row": 1617,
+      "raw": "antañada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTÑD"
+    },
+    {
+      "row": 1618,
+      "raw": "antañazo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTÑZ"
+    },
+    {
+      "row": 1619,
+      "raw": "antañón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTÑN"
+    },
+    {
+      "row": 1620,
+      "raw": "antañona",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTÑN"
+    },
+    {
+      "row": 1633,
+      "raw": "anteseña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTSÑ"
+    },
+    {
+      "row": 1638,
+      "raw": "antigüeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTGÑ"
+    },
+    {
+      "row": 1639,
+      "raw": "antigüeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTGÑ"
+    },
+    {
+      "row": 1641,
+      "raw": "antioqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTQÑ"
+    },
+    {
+      "row": 1642,
+      "raw": "antioqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTQÑ"
+    },
+    {
+      "row": 1644,
+      "raw": "Antón",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1645,
+      "raw": "Antonio",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1652,
+      "raw": "añublar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑBLR"
+    },
+    {
+      "row": 1654,
+      "raw": "añudador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑDDR"
+    },
+    {
+      "row": 1655,
+      "raw": "añudadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑDDR"
+    },
+    {
+      "row": 1656,
+      "raw": "añudadura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑDDR"
+    },
+    {
+      "row": 1686,
+      "raw": "apañador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑDR"
+    },
+    {
+      "row": 1687,
+      "raw": "apañadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑDR"
+    },
+    {
+      "row": 1688,
+      "raw": "apañadura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑDR"
+    },
+    {
+      "row": 1726,
+      "raw": "apezuñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PZÑR"
+    },
+    {
+      "row": 1734,
+      "raw": "apiñadura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑDR"
+    },
+    {
+      "row": 1735,
+      "raw": "apiñonada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑND"
+    },
+    {
+      "row": 1736,
+      "raw": "apiñonado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑND"
+    },
+    {
+      "row": 1793,
+      "raw": "apuñalada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLD"
+    },
+    {
+      "row": 1794,
+      "raw": "apuñalado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLD"
+    },
+    {
+      "row": 1795,
+      "raw": "apuñalar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLR"
+    },
+    {
+      "row": 1796,
+      "raw": "apuñaleada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLD"
+    },
+    {
+      "row": 1797,
+      "raw": "apuñalear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLR"
+    },
+    {
+      "row": 1798,
+      "raw": "apuñetear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 1804,
+      "raw": "apurimeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRMÑ"
+    },
+    {
+      "row": 1805,
+      "raw": "apurimeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRMÑ"
+    },
+    {
+      "row": 1819,
+      "raw": "Aquiles",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1836,
+      "raw": "Aragón",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1844,
+      "raw": "arañador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑDR"
+    },
+    {
+      "row": 1845,
+      "raw": "arañadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑDR"
+    },
+    {
+      "row": 1897,
+      "raw": "arecibeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RCBÑ"
+    },
+    {
+      "row": 1898,
+      "raw": "arecibeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RCBÑ"
+    },
+    {
+      "row": 1916,
+      "raw": "arequipeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RQPÑ"
+    },
+    {
+      "row": 1917,
+      "raw": "arequipeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RQPÑ"
+    },
+    {
+      "row": 1944,
+      "raw": "árgueñas",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑS"
+    },
+    {
+      "row": 1970,
+      "raw": "armañac",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RMÑC"
+    },
+    {
+      "row": 1974,
+      "raw": "Armenia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 1979,
+      "raw": "armiñada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RMÑD"
+    },
+    {
+      "row": 1980,
+      "raw": "armiñado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RMÑD"
+    },
+    {
+      "row": 1981,
+      "raw": "armiñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RMÑR"
+    },
+    {
+      "row": 2014,
+      "raw": "Arrás",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 2032,
+      "raw": "arribeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RRBÑ"
+    },
+    {
+      "row": 2033,
+      "raw": "arribeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RRBÑ"
+    },
+    {
+      "row": 2044,
+      "raw": "arrobeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RRBÑ"
+    },
+    {
+      "row": 2045,
+      "raw": "arrobeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RRBÑ"
+    },
+    {
+      "row": 2073,
+      "raw": "artimaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RTMÑ"
+    },
+    {
+      "row": 2116,
+      "raw": "aseñorada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRD"
+    },
+    {
+      "row": 2117,
+      "raw": "aseñorado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRD"
+    },
+    {
+      "row": 2199,
+      "raw": "asunceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SNCÑ"
+    },
+    {
+      "row": 2200,
+      "raw": "asunceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SNCÑ"
+    },
+    {
+      "row": 2208,
+      "raw": "atacameña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCMÑ"
+    },
+    {
+      "row": 2209,
+      "raw": "atacameño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCMÑ"
+    },
+    {
+      "row": 2231,
+      "raw": "atañedera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TÑDR"
+    },
+    {
+      "row": 2232,
+      "raw": "atañedero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TÑDR"
+    },
+    {
+      "row": 2399,
+      "raw": "autoengaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TNGÑ"
+    },
+    {
+      "row": 2475,
+      "raw": "aviñonés",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑNS"
+    },
+    {
+      "row": 2476,
+      "raw": "aviñonesa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑNS"
+    },
+    {
+      "row": 2510,
+      "raw": "ayopayeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YPYÑ"
+    },
+    {
+      "row": 2511,
+      "raw": "ayopayeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YPYÑ"
+    },
+    {
+      "row": 2669,
+      "raw": "bahameña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BHMÑ"
+    },
+    {
+      "row": 2670,
+      "raw": "bahameño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BHMÑ"
+    },
+    {
+      "row": 2749,
+      "raw": "Bamba",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 2753,
+      "raw": "bañadera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑDR"
+    },
+    {
+      "row": 2754,
+      "raw": "bañadero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑDR"
+    },
+    {
+      "row": 2755,
+      "raw": "bañador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑDR"
+    },
+    {
+      "row": 2756,
+      "raw": "bañadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑDR"
+    },
+    {
+      "row": 2766,
+      "raw": "bañezana",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑZN"
+    },
+    {
+      "row": 2767,
+      "raw": "bañezano",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑZN"
+    },
+    {
+      "row": 2768,
+      "raw": "bangaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BNGÑ"
+    },
+    {
+      "row": 2769,
+      "raw": "bangaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BNGÑ"
+    },
+    {
+      "row": 2772,
+      "raw": "bañista",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑST"
+    },
+    {
+      "row": 2812,
+      "raw": "bargueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRGÑ"
+    },
+    {
+      "row": 2813,
+      "raw": "bargueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRGÑ"
+    },
+    {
+      "row": 2827,
+      "raw": "barreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRRÑ"
+    },
+    {
+      "row": 2828,
+      "raw": "barreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRRÑ"
+    },
+    {
+      "row": 2843,
+      "raw": "basquiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BSQÑ"
+    },
+    {
+      "row": 2853,
+      "raw": "Batavia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 2892,
+      "raw": "Bayona",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 2941,
+      "raw": "beliceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BLCÑ"
+    },
+    {
+      "row": 2942,
+      "raw": "beliceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BLCÑ"
+    },
+    {
+      "row": 2977,
+      "raw": "berraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRRÑ"
+    },
+    {
+      "row": 3002,
+      "raw": "biafreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BFRÑ"
+    },
+    {
+      "row": 3003,
+      "raw": "biafreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BFRÑ"
+    },
+    {
+      "row": 3023,
+      "raw": "Bierzo",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 3100,
+      "raw": "bisoñada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BSÑD"
+    },
+    {
+      "row": 3101,
+      "raw": "bisoñería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BSÑR"
+    },
+    {
+      "row": 3102,
+      "raw": "bisoñez",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BSÑZ"
+    },
+    {
+      "row": 3120,
+      "raw": "Blas",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 3185,
+      "raw": "Bohemia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 3200,
+      "raw": "bolañega",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BLÑG"
+    },
+    {
+      "row": 3201,
+      "raw": "bolañego",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BLÑG"
+    },
+    {
+      "row": 3223,
+      "raw": "boloñés",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BLÑS"
+    },
+    {
+      "row": 3224,
+      "raw": "boloñesa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BLÑS"
+    },
+    {
+      "row": 3244,
+      "raw": "boñigar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑGR"
+    },
+    {
+      "row": 3245,
+      "raw": "boñiguero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑGR"
+    },
+    {
+      "row": 3270,
+      "raw": "borgoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRGÑ"
+    },
+    {
+      "row": 3297,
+      "raw": "botagueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BTGÑ"
+    },
+    {
+      "row": 3362,
+      "raw": "breñal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑL"
+    },
+    {
+      "row": 3363,
+      "raw": "breñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑR"
+    },
+    {
+      "row": 3364,
+      "raw": "breñosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑS"
+    },
+    {
+      "row": 3365,
+      "raw": "breñoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑS"
+    },
+    {
+      "row": 3367,
+      "raw": "bretaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRTÑ"
+    },
+    {
+      "row": 3381,
+      "raw": "briñón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑN"
+    },
+    {
+      "row": 3405,
+      "raw": "bruñida",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑD"
+    },
+    {
+      "row": 3406,
+      "raw": "bruñido",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑD"
+    },
+    {
+      "row": 3407,
+      "raw": "bruñir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRÑR"
+    },
+    {
+      "row": 3480,
+      "raw": "buñolera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLR"
+    },
+    {
+      "row": 3481,
+      "raw": "buñolería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLR"
+    },
+    {
+      "row": 3482,
+      "raw": "buñolero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLR"
+    },
+    {
+      "row": 3483,
+      "raw": "buñuelera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLR"
+    },
+    {
+      "row": 3484,
+      "raw": "buñuelero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLR"
+    },
+    {
+      "row": 3485,
+      "raw": "buñueliana",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLN"
+    },
+    {
+      "row": 3486,
+      "raw": "buñueliano",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BÑLN"
+    },
+    {
+      "row": 3495,
+      "raw": "burgueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRGÑ"
+    },
+    {
+      "row": 3496,
+      "raw": "burgueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRGÑ"
+    },
+    {
+      "row": 3502,
+      "raw": "burreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRRÑ"
+    },
+    {
+      "row": 3504,
+      "raw": "burruño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRRÑ"
+    },
+    {
+      "row": 3535,
+      "raw": "caacupeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCPÑ"
+    },
+    {
+      "row": 3536,
+      "raw": "caacupeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCPÑ"
+    },
+    {
+      "row": 3537,
+      "raw": "caaguaceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGCÑ"
+    },
+    {
+      "row": 3538,
+      "raw": "caaguaceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGCÑ"
+    },
+    {
+      "row": 3540,
+      "raw": "caazapeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZPÑ"
+    },
+    {
+      "row": 3541,
+      "raw": "caazapeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZPÑ"
+    },
+    {
+      "row": 3544,
+      "raw": "cabañal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBÑL"
+    },
+    {
+      "row": 3545,
+      "raw": "cabañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBÑR"
+    },
+    {
+      "row": 3546,
+      "raw": "cabañería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBÑR"
+    },
+    {
+      "row": 3547,
+      "raw": "cabañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBÑR"
+    },
+    {
+      "row": 3548,
+      "raw": "cabañil",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBÑL"
+    },
+    {
+      "row": 3563,
+      "raw": "cabileña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBLÑ"
+    },
+    {
+      "row": 3564,
+      "raw": "cabileño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBLÑ"
+    },
+    {
+      "row": 3574,
+      "raw": "cabruño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBRÑ"
+    },
+    {
+      "row": 3583,
+      "raw": "cacaraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCRÑ"
+    },
+    {
+      "row": 3589,
+      "raw": "cacereña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCRÑ"
+    },
+    {
+      "row": 3590,
+      "raw": "cacereño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCRÑ"
+    },
+    {
+      "row": 3594,
+      "raw": "cachaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCHÑ"
+    },
+    {
+      "row": 3609,
+      "raw": "cadañal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CDÑL"
+    },
+    {
+      "row": 3610,
+      "raw": "cadañega",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CDÑG"
+    },
+    {
+      "row": 3611,
+      "raw": "cadañego",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CDÑG"
+    },
+    {
+      "row": 3612,
+      "raw": "cadañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CDÑR"
+    },
+    {
+      "row": 3613,
+      "raw": "cadañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CDÑR"
+    },
+    {
+      "row": 3653,
+      "raw": "caipiriña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CPRÑ"
+    },
+    {
+      "row": 3682,
+      "raw": "calameña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLMÑ"
+    },
+    {
+      "row": 3683,
+      "raw": "calameño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLMÑ"
+    },
+    {
+      "row": 3686,
+      "raw": "Calañas",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 3687,
+      "raw": "calañés",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLÑS"
+    },
+    {
+      "row": 3688,
+      "raw": "calañesa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLÑS"
+    },
+    {
+      "row": 3697,
+      "raw": "calcaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLCÑ"
+    },
+    {
+      "row": 3725,
+      "raw": "caliqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLQÑ"
+    },
+    {
+      "row": 3737,
+      "raw": "caloñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLÑR"
+    },
+    {
+      "row": 3744,
+      "raw": "calqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLQÑ"
+    },
+    {
+      "row": 3745,
+      "raw": "calqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLQÑ"
+    },
+    {
+      "row": 3763,
+      "raw": "camariña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMRÑ"
+    },
+    {
+      "row": 3786,
+      "raw": "camireña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMRÑ"
+    },
+    {
+      "row": 3787,
+      "raw": "camireño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMRÑ"
+    },
+    {
+      "row": 3796,
+      "raw": "campaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMPÑ"
+    },
+    {
+      "row": 3797,
+      "raw": "campeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMPÑ"
+    },
+    {
+      "row": 3798,
+      "raw": "campeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMPÑ"
+    },
+    {
+      "row": 3800,
+      "raw": "campiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMPÑ"
+    },
+    {
+      "row": 3806,
+      "raw": "cañabota",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑBT"
+    },
+    {
+      "row": 3809,
+      "raw": "cañacoro",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑCR"
+    },
+    {
+      "row": 3810,
+      "raw": "Canadá",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 3811,
+      "raw": "cañadón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDN"
+    },
+    {
+      "row": 3812,
+      "raw": "cañaduz",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDZ"
+    },
+    {
+      "row": 3813,
+      "raw": "cañaheja",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑHJ"
+    },
+    {
+      "row": 3814,
+      "raw": "cañahuate",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑHT"
+    },
+    {
+      "row": 3815,
+      "raw": "cañahueca",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑHC"
+    },
+    {
+      "row": 3816,
+      "raw": "cañaílla",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑLL"
+    },
+    {
+      "row": 3819,
+      "raw": "cañaliega",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑLG"
+    },
+    {
+      "row": 3820,
+      "raw": "cañamar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑMR"
+    },
+    {
+      "row": 3821,
+      "raw": "cañamazo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑMZ"
+    },
+    {
+      "row": 3822,
+      "raw": "cañamera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑMR"
+    },
+    {
+      "row": 3823,
+      "raw": "cañamero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑMR"
+    },
+    {
+      "row": 3824,
+      "raw": "cañamiel",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑML"
+    },
+    {
+      "row": 3825,
+      "raw": "cañamiza",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑMZ"
+    },
+    {
+      "row": 3826,
+      "raw": "cañamón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑMN"
+    },
+    {
+      "row": 3831,
+      "raw": "cañareja",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑRJ"
+    },
+    {
+      "row": 3832,
+      "raw": "cañarejo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑRJ"
+    },
+    {
+      "row": 3834,
+      "raw": "cañariega",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑRG"
+    },
+    {
+      "row": 3835,
+      "raw": "cañariego",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑRG"
+    },
+    {
+      "row": 3838,
+      "raw": "cañavera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑVR"
+    },
+    {
+      "row": 3846,
+      "raw": "cañenga",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNG"
+    },
+    {
+      "row": 3847,
+      "raw": "cañengo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNG"
+    },
+    {
+      "row": 3849,
+      "raw": "cañerla",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑRL"
+    },
+    {
+      "row": 3852,
+      "raw": "cañetana",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑTN"
+    },
+    {
+      "row": 3853,
+      "raw": "cañetano",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑTN"
+    },
+    {
+      "row": 3861,
+      "raw": "cañifla",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑFL"
+    },
+    {
+      "row": 3862,
+      "raw": "cañihueco",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑHC"
+    },
+    {
+      "row": 3866,
+      "raw": "cañilero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑLR"
+    },
+    {
+      "row": 3870,
+      "raw": "cañinque",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNQ"
+    },
+    {
+      "row": 3872,
+      "raw": "cañirla",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑRL"
+    },
+    {
+      "row": 3873,
+      "raw": "cañista",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑST"
+    },
+    {
+      "row": 3874,
+      "raw": "cañivano",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑVN"
+    },
+    {
+      "row": 3875,
+      "raw": "cañivete",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑVT"
+    },
+    {
+      "row": 3876,
+      "raw": "cañizal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑZL"
+    },
+    {
+      "row": 3877,
+      "raw": "cañizar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑZR"
+    },
+    {
+      "row": 3880,
+      "raw": "cañocal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑCL"
+    },
+    {
+      "row": 3881,
+      "raw": "cañocazo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑCZ"
+    },
+    {
+      "row": 3885,
+      "raw": "cañonazo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNZ"
+    },
+    {
+      "row": 3886,
+      "raw": "cañonear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNR"
+    },
+    {
+      "row": 3887,
+      "raw": "cañonera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNR"
+    },
+    {
+      "row": 3888,
+      "raw": "cañonería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNR"
+    },
+    {
+      "row": 3889,
+      "raw": "cañonero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑNR"
+    },
+    {
+      "row": 3901,
+      "raw": "canteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNTÑ"
+    },
+    {
+      "row": 3902,
+      "raw": "canteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNTÑ"
+    },
+    {
+      "row": 3904,
+      "raw": "cantiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNTÑ"
+    },
+    {
+      "row": 3908,
+      "raw": "cañucela",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑCL"
+    },
+    {
+      "row": 3913,
+      "raw": "cañutazo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑTZ"
+    },
+    {
+      "row": 3915,
+      "raw": "cañutería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑTR"
+    },
+    {
+      "row": 3916,
+      "raw": "cañutero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑTR"
+    },
+    {
+      "row": 3973,
+      "raw": "caraqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRQÑ"
+    },
+    {
+      "row": 3974,
+      "raw": "caraqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRQÑ"
+    },
+    {
+      "row": 3983,
+      "raw": "carcaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRCÑ"
+    },
+    {
+      "row": 3985,
+      "raw": "cardeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRDÑ"
+    },
+    {
+      "row": 4007,
+      "raw": "caribeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRBÑ"
+    },
+    {
+      "row": 4008,
+      "raw": "caribeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRBÑ"
+    },
+    {
+      "row": 4013,
+      "raw": "cariñana",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑN"
+    },
+    {
+      "row": 4014,
+      "raw": "cariñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑR"
+    },
+    {
+      "row": 4015,
+      "raw": "cariñena",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑN"
+    },
+    {
+      "row": 4016,
+      "raw": "cariñosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑS"
+    },
+    {
+      "row": 4017,
+      "raw": "cariñoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑS"
+    },
+    {
+      "row": 4038,
+      "raw": "caroñosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑS"
+    },
+    {
+      "row": 4039,
+      "raw": "caroñoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑS"
+    },
+    {
+      "row": 4040,
+      "raw": "caroreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4041,
+      "raw": "caroreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4047,
+      "raw": "carpeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRPÑ"
+    },
+    {
+      "row": 4048,
+      "raw": "carpeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRPÑ"
+    },
+    {
+      "row": 4051,
+      "raw": "carraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4053,
+      "raw": "carreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4054,
+      "raw": "carriño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4056,
+      "raw": "carroña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4057,
+      "raw": "carroño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4094,
+      "raw": "casmeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSMÑ"
+    },
+    {
+      "row": 4095,
+      "raw": "casmeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSMÑ"
+    },
+    {
+      "row": 4103,
+      "raw": "castaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSTÑ"
+    },
+    {
+      "row": 4104,
+      "raw": "castaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSTÑ"
+    },
+    {
+      "row": 4116,
+      "raw": "cataraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CTRÑ"
+    },
+    {
+      "row": 4267,
+      "raw": "Ceilán",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 4288,
+      "raw": "celidueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLDÑ"
+    },
+    {
+      "row": 4304,
+      "raw": "cenceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNCÑ"
+    },
+    {
+      "row": 4305,
+      "raw": "cenceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNCÑ"
+    },
+    {
+      "row": 4313,
+      "raw": "ceñidero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDR"
+    },
+    {
+      "row": 4314,
+      "raw": "ceñidor",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDR"
+    },
+    {
+      "row": 4315,
+      "raw": "ceñidura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDR"
+    },
+    {
+      "row": 4316,
+      "raw": "ceñiglo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑGL"
+    },
+    {
+      "row": 4355,
+      "raw": "cermeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRMÑ"
+    },
+    {
+      "row": 4356,
+      "raw": "cermeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRMÑ"
+    },
+    {
+      "row": 4368,
+      "raw": "cerreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4369,
+      "raw": "cerreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 4382,
+      "raw": "cestaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSTÑ"
+    },
+    {
+      "row": 4414,
+      "raw": "chañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CHÑR"
+    },
+    {
+      "row": 4427,
+      "raw": "chaqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CHQÑ"
+    },
+    {
+      "row": 4428,
+      "raw": "chaqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CHQÑ"
+    },
+    {
+      "row": 4430,
+      "raw": "charañeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 5: CHRÑÑ"
+    },
+    {
+      "row": 4431,
+      "raw": "charañeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 5: CHRÑÑ"
+    },
+    {
+      "row": 4471,
+      "raw": "Chiapa",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 4483,
+      "raw": "Chile",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 4627,
+      "raw": "cigoñal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGÑL"
+    },
+    {
+      "row": 4628,
+      "raw": "cigoñino",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGÑN"
+    },
+    {
+      "row": 4629,
+      "raw": "cigoñuela",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGÑL"
+    },
+    {
+      "row": 4634,
+      "raw": "cigüeñal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGÑL"
+    },
+    {
+      "row": 4635,
+      "raw": "cigüeñato",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGÑT"
+    },
+    {
+      "row": 4636,
+      "raw": "cigüeñuela",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CGÑL"
+    },
+    {
+      "row": 4660,
+      "raw": "cinqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNQÑ"
+    },
+    {
+      "row": 4661,
+      "raw": "cinqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNQÑ"
+    },
+    {
+      "row": 4678,
+      "raw": "cirigaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRGÑ"
+    },
+    {
+      "row": 4712,
+      "raw": "cizañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZÑR"
+    },
+    {
+      "row": 4713,
+      "raw": "cizañear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZÑR"
+    },
+    {
+      "row": 4714,
+      "raw": "cizañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZÑR"
+    },
+    {
+      "row": 4715,
+      "raw": "cizañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZÑR"
+    },
+    {
+      "row": 4735,
+      "raw": "cliceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLCÑ"
+    },
+    {
+      "row": 4736,
+      "raw": "cliceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLCÑ"
+    },
+    {
+      "row": 4767,
+      "raw": "cobijeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBJÑ"
+    },
+    {
+      "row": 4768,
+      "raw": "cobijeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBJÑ"
+    },
+    {
+      "row": 4772,
+      "raw": "Cobos",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 4775,
+      "raw": "cobreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBRÑ"
+    },
+    {
+      "row": 4776,
+      "raw": "cobreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CBRÑ"
+    },
+    {
+      "row": 4825,
+      "raw": "codoñate",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CDÑT"
+    },
+    {
+      "row": 4855,
+      "raw": "cojedeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CJDÑ"
+    },
+    {
+      "row": 4856,
+      "raw": "cojedeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CJDÑ"
+    },
+    {
+      "row": 4888,
+      "raw": "colimeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLMÑ"
+    },
+    {
+      "row": 4889,
+      "raw": "colimeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLMÑ"
+    },
+    {
+      "row": 4909,
+      "raw": "coloneña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLNÑ"
+    },
+    {
+      "row": 4910,
+      "raw": "coloneño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CLNÑ"
+    },
+    {
+      "row": 4950,
+      "raw": "compaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMPÑ"
+    },
+    {
+      "row": 4951,
+      "raw": "compañía",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMPÑ"
+    },
+    {
+      "row": 4952,
+      "raw": "compaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CMPÑ"
+    },
+    {
+      "row": 4958,
+      "raw": "coñacear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑCR"
+    },
+    {
+      "row": 4963,
+      "raw": "concuña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNCÑ"
+    },
+    {
+      "row": 4964,
+      "raw": "concuño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNCÑ"
+    },
+    {
+      "row": 4966,
+      "raw": "condueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNDÑ"
+    },
+    {
+      "row": 4967,
+      "raw": "condueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CNDÑ"
+    },
+    {
+      "row": 4968,
+      "raw": "coñearse",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑRS"
+    },
+    {
+      "row": 5045,
+      "raw": "Corán",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 5076,
+      "raw": "coroiqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRQÑ"
+    },
+    {
+      "row": 5077,
+      "raw": "coroiqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRQÑ"
+    },
+    {
+      "row": 5085,
+      "raw": "corpiño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRPÑ"
+    },
+    {
+      "row": 5098,
+      "raw": "coruñés",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑS"
+    },
+    {
+      "row": 5099,
+      "raw": "coruñesa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑS"
+    },
+    {
+      "row": 5101,
+      "raw": "corveña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRVÑ"
+    },
+    {
+      "row": 5102,
+      "raw": "corveño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRVÑ"
+    },
+    {
+      "row": 5123,
+      "raw": "costeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSTÑ"
+    },
+    {
+      "row": 5124,
+      "raw": "costeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSTÑ"
+    },
+    {
+      "row": 5149,
+      "raw": "COVID",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 5202,
+      "raw": "cruceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRCÑ"
+    },
+    {
+      "row": 5203,
+      "raw": "cruceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRCÑ"
+    },
+    {
+      "row": 5243,
+      "raw": "cuatreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CTRÑ"
+    },
+    {
+      "row": 5244,
+      "raw": "cuatreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CTRÑ"
+    },
+    {
+      "row": 5261,
+      "raw": "cucañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCÑR"
+    },
+    {
+      "row": 5262,
+      "raw": "cucañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCÑR"
+    },
+    {
+      "row": 5273,
+      "raw": "cucuteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCTÑ"
+    },
+    {
+      "row": 5274,
+      "raw": "cucuteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CCTÑ"
+    },
+    {
+      "row": 5287,
+      "raw": "Cuenca",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 5369,
+      "raw": "cuñadería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CÑDR"
+    },
+    {
+      "row": 5398,
+      "raw": "cureñaje",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRÑJ"
+    },
+    {
+      "row": 5414,
+      "raw": "curruña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CRRÑ"
+    },
+    {
+      "row": 5437,
+      "raw": "cusqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSQÑ"
+    },
+    {
+      "row": 5438,
+      "raw": "cusqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CSQÑ"
+    },
+    {
+      "row": 5462,
+      "raw": "cuzqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZQÑ"
+    },
+    {
+      "row": 5463,
+      "raw": "cuzqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CZQÑ"
+    },
+    {
+      "row": 5466,
+      "raw": "da capo",
+      "reason": "multipalabra"
+    },
+    {
+      "row": 5487,
+      "raw": "dañable",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑBL"
+    },
+    {
+      "row": 5488,
+      "raw": "dañación",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑCN"
+    },
+    {
+      "row": 5489,
+      "raw": "dañador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑDR"
+    },
+    {
+      "row": 5490,
+      "raw": "dañadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑDR"
+    },
+    {
+      "row": 5517,
+      "raw": "David",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 5518,
+      "raw": "davideña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DVDÑ"
+    },
+    {
+      "row": 5519,
+      "raw": "davideño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DVDÑ"
+    },
+    {
+      "row": 5521,
+      "raw": "DDT",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 5567,
+      "raw": "degañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DGÑR"
+    },
+    {
+      "row": 5592,
+      "raw": "deliñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DLÑR"
+    },
+    {
+      "row": 5605,
+      "raw": "demoñuelo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DMÑL"
+    },
+    {
+      "row": 5623,
+      "raw": "desaliño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSLÑ"
+    },
+    {
+      "row": 5629,
+      "raw": "desdeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSDÑ"
+    },
+    {
+      "row": 5631,
+      "raw": "deseñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSÑR"
+    },
+    {
+      "row": 5637,
+      "raw": "desmaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSMÑ"
+    },
+    {
+      "row": 5638,
+      "raw": "desmaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSMÑ"
+    },
+    {
+      "row": 5641,
+      "raw": "despeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSPÑ"
+    },
+    {
+      "row": 5646,
+      "raw": "destiño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSTÑ"
+    },
+    {
+      "row": 5647,
+      "raw": "desuñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSÑR"
+    },
+    {
+      "row": 5648,
+      "raw": "desuñir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSÑR"
+    },
+    {
+      "row": 5668,
+      "raw": "dezmeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DZMÑ"
+    },
+    {
+      "row": 5669,
+      "raw": "dezmeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DZMÑ"
+    },
+    {
+      "row": 5714,
+      "raw": "dies irae",
+      "reason": "multipalabra"
+    },
+    {
+      "row": 5757,
+      "raw": "diseñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DSÑR"
+    },
+    {
+      "row": 5815,
+      "raw": "domeñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DMÑR"
+    },
+    {
+      "row": 5822,
+      "raw": "doñaguil",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑGL"
+    },
+    {
+      "row": 5828,
+      "raw": "doñeador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑDR"
+    },
+    {
+      "row": 5830,
+      "raw": "doñegal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑGL"
+    },
+    {
+      "row": 5831,
+      "raw": "doñeguil",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑGL"
+    },
+    {
+      "row": 5832,
+      "raw": "doñigal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑGL"
+    },
+    {
+      "row": 5861,
+      "raw": "Down",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 5903,
+      "raw": "dueñesca",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑSC"
+    },
+    {
+      "row": 5904,
+      "raw": "dueñesco",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DÑSC"
+    },
+    {
+      "row": 5921,
+      "raw": "durañón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DRÑN"
+    },
+    {
+      "row": 5922,
+      "raw": "durañona",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: DRÑN"
+    },
+    {
+      "row": 5927,
+      "raw": "DVD",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 6027,
+      "raw": "Egipto",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 6131,
+      "raw": "empañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑR"
+    },
+    {
+      "row": 6132,
+      "raw": "empañete",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑT"
+    },
+    {
+      "row": 6139,
+      "raw": "empeñada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑD"
+    },
+    {
+      "row": 6140,
+      "raw": "empeñado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑD"
+    },
+    {
+      "row": 6141,
+      "raw": "empeñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑR"
+    },
+    {
+      "row": 6142,
+      "raw": "empeñosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑS"
+    },
+    {
+      "row": 6143,
+      "raw": "empeñoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑS"
+    },
+    {
+      "row": 6158,
+      "raw": "empuñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MPÑR"
+    },
+    {
+      "row": 6170,
+      "raw": "encañada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NCÑD"
+    },
+    {
+      "row": 6171,
+      "raw": "encañado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NCÑD"
+    },
+    {
+      "row": 6172,
+      "raw": "encañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NCÑR"
+    },
+    {
+      "row": 6188,
+      "raw": "endiñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NDÑR"
+    },
+    {
+      "row": 6208,
+      "raw": "engañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGÑR"
+    },
+    {
+      "row": 6209,
+      "raw": "engañifa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGÑF"
+    },
+    {
+      "row": 6210,
+      "raw": "engañosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGÑS"
+    },
+    {
+      "row": 6211,
+      "raw": "engañoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGÑS"
+    },
+    {
+      "row": 6213,
+      "raw": "engeñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGÑR"
+    },
+    {
+      "row": 6215,
+      "raw": "engeñosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGÑS"
+    },
+    {
+      "row": 6216,
+      "raw": "engeñoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGÑS"
+    },
+    {
+      "row": 6219,
+      "raw": "engruño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NGRÑ"
+    },
+    {
+      "row": 6253,
+      "raw": "enriqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NRQÑ"
+    },
+    {
+      "row": 6254,
+      "raw": "enriqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NRQÑ"
+    },
+    {
+      "row": 6256,
+      "raw": "enroñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NRÑR"
+    },
+    {
+      "row": 6261,
+      "raw": "ensañada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSÑD"
+    },
+    {
+      "row": 6262,
+      "raw": "ensañado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSÑD"
+    },
+    {
+      "row": 6263,
+      "raw": "ensañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSÑR"
+    },
+    {
+      "row": 6267,
+      "raw": "enseñada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSÑD"
+    },
+    {
+      "row": 6268,
+      "raw": "enseñado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSÑD"
+    },
+    {
+      "row": 6269,
+      "raw": "enseñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSÑR"
+    },
+    {
+      "row": 6270,
+      "raw": "ensoñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSÑR"
+    },
+    {
+      "row": 6279,
+      "raw": "entoñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTÑR"
+    },
+    {
+      "row": 6282,
+      "raw": "entraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTRÑ"
+    },
+    {
+      "row": 6283,
+      "raw": "entraño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NTRÑ"
+    },
+    {
+      "row": 6370,
+      "raw": "ermitaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RMTÑ"
+    },
+    {
+      "row": 6371,
+      "raw": "ermitaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RMTÑ"
+    },
+    {
+      "row": 6403,
+      "raw": "escaloña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCLÑ"
+    },
+    {
+      "row": 6406,
+      "raw": "escañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCÑR"
+    },
+    {
+      "row": 6407,
+      "raw": "escañeto",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCÑT"
+    },
+    {
+      "row": 6408,
+      "raw": "escañil",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCÑL"
+    },
+    {
+      "row": 6409,
+      "raw": "escañuelo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCÑL"
+    },
+    {
+      "row": 6422,
+      "raw": "Escila",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 6428,
+      "raw": "Escocia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 6432,
+      "raw": "escoñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCÑR"
+    },
+    {
+      "row": 6441,
+      "raw": "escriño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCRÑ"
+    },
+    {
+      "row": 6443,
+      "raw": "escudaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCDÑ"
+    },
+    {
+      "row": 6449,
+      "raw": "escupiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCPÑ"
+    },
+    {
+      "row": 6454,
+      "raw": "escusaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCSÑ"
+    },
+    {
+      "row": 6475,
+      "raw": "esmuñir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SMÑR"
+    },
+    {
+      "row": 6484,
+      "raw": "espadaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SPDÑ"
+    },
+    {
+      "row": 6486,
+      "raw": "español",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SPÑL"
+    },
+    {
+      "row": 6487,
+      "raw": "española",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SPÑL"
+    },
+    {
+      "row": 6488,
+      "raw": "españolía",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SPÑL"
+    },
+    {
+      "row": 6556,
+      "raw": "estadoño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STDÑ"
+    },
+    {
+      "row": 6561,
+      "raw": "estameña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STMÑ"
+    },
+    {
+      "row": 6562,
+      "raw": "estañado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STÑD"
+    },
+    {
+      "row": 6563,
+      "raw": "estañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STÑR"
+    },
+    {
+      "row": 6564,
+      "raw": "estañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STÑR"
+    },
+    {
+      "row": 6604,
+      "raw": "estopeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STPÑ"
+    },
+    {
+      "row": 6605,
+      "raw": "estopeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STPÑ"
+    },
+    {
+      "row": 6666,
+      "raw": "Eustaquio",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 6736,
+      "raw": "extraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: XTRÑ"
+    },
+    {
+      "row": 6737,
+      "raw": "extraño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: XTRÑ"
+    },
+    {
+      "row": 6796,
+      "raw": "falagüeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FLGÑ"
+    },
+    {
+      "row": 6797,
+      "raw": "falagüeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FLGÑ"
+    },
+    {
+      "row": 6813,
+      "raw": "Falopio",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 6853,
+      "raw": "fariñera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FRÑR"
+    },
+    {
+      "row": 6962,
+      "raw": "ferreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FRRÑ"
+    },
+    {
+      "row": 7202,
+      "raw": "Fraga",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 7205,
+      "raw": "fraileña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FRLÑ"
+    },
+    {
+      "row": 7206,
+      "raw": "fraileño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FRLÑ"
+    },
+    {
+      "row": 7210,
+      "raw": "frañer",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FRÑR"
+    },
+    {
+      "row": 7241,
+      "raw": "Frisia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 7304,
+      "raw": "fuñicar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FÑCR"
+    },
+    {
+      "row": 7305,
+      "raw": "fuñingue",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FÑNG"
+    },
+    {
+      "row": 7325,
+      "raw": "fustaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: FSTÑ"
+    },
+    {
+      "row": 7404,
+      "raw": "galgueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GLGÑ"
+    },
+    {
+      "row": 7405,
+      "raw": "galgueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GLGÑ"
+    },
+    {
+      "row": 7425,
+      "raw": "Gambia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 7435,
+      "raw": "gañafón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑFN"
+    },
+    {
+      "row": 7440,
+      "raw": "gañivete",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑVT"
+    },
+    {
+      "row": 7445,
+      "raw": "gañotuda",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑTD"
+    },
+    {
+      "row": 7446,
+      "raw": "gañotudo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑTD"
+    },
+    {
+      "row": 7457,
+      "raw": "garañón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑN"
+    },
+    {
+      "row": 7458,
+      "raw": "garañuela",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑL"
+    },
+    {
+      "row": 7459,
+      "raw": "garapiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRPÑ"
+    },
+    {
+      "row": 7466,
+      "raw": "garduña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRDÑ"
+    },
+    {
+      "row": 7467,
+      "raw": "garduño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRDÑ"
+    },
+    {
+      "row": 7515,
+      "raw": "Gauss",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 7534,
+      "raw": "gazmoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GZMÑ"
+    },
+    {
+      "row": 7535,
+      "raw": "gazmoño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GZMÑ"
+    },
+    {
+      "row": 7566,
+      "raw": "Génova",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 7593,
+      "raw": "getafeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GTFÑ"
+    },
+    {
+      "row": 7594,
+      "raw": "getafeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GTFÑ"
+    },
+    {
+      "row": 7664,
+      "raw": "Golgi",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 7701,
+      "raw": "gotereña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GTRÑ"
+    },
+    {
+      "row": 7702,
+      "raw": "gotereño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GTRÑ"
+    },
+    {
+      "row": 7719,
+      "raw": "GPS",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 7720,
+      "raw": "Graaf",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 7737,
+      "raw": "grañón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑN"
+    },
+    {
+      "row": 7738,
+      "raw": "grañuela",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑL"
+    },
+    {
+      "row": 7758,
+      "raw": "greñuda",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑD"
+    },
+    {
+      "row": 7759,
+      "raw": "greñudo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑD"
+    },
+    {
+      "row": 7772,
+      "raw": "griñón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑN"
+    },
+    {
+      "row": 7799,
+      "raw": "gruñido",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑD"
+    },
+    {
+      "row": 7800,
+      "raw": "gruñir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑR"
+    },
+    {
+      "row": 7801,
+      "raw": "gruñón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑN"
+    },
+    {
+      "row": 7802,
+      "raw": "gruñona",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRÑN"
+    },
+    {
+      "row": 7819,
+      "raw": "guadañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GDÑR"
+    },
+    {
+      "row": 7820,
+      "raw": "guadañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GDÑR"
+    },
+    {
+      "row": 7821,
+      "raw": "guadañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GDÑR"
+    },
+    {
+      "row": 7822,
+      "raw": "guadañeta",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GDÑT"
+    },
+    {
+      "row": 7823,
+      "raw": "guadañil",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GDÑL"
+    },
+    {
+      "row": 7825,
+      "raw": "guadijeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GDJÑ"
+    },
+    {
+      "row": 7826,
+      "raw": "guadijeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GDJÑ"
+    },
+    {
+      "row": 7860,
+      "raw": "guanajeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GNJÑ"
+    },
+    {
+      "row": 7861,
+      "raw": "guanajeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GNJÑ"
+    },
+    {
+      "row": 7863,
+      "raw": "guanareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GNRÑ"
+    },
+    {
+      "row": 7864,
+      "raw": "guanareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GNRÑ"
+    },
+    {
+      "row": 7909,
+      "raw": "guariqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRQÑ"
+    },
+    {
+      "row": 7910,
+      "raw": "guariqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRQÑ"
+    },
+    {
+      "row": 7953,
+      "raw": "guaymeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GYMÑ"
+    },
+    {
+      "row": 7954,
+      "raw": "guaymeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GYMÑ"
+    },
+    {
+      "row": 7980,
+      "raw": "guiñador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑDR"
+    },
+    {
+      "row": 7981,
+      "raw": "guiñadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑDR"
+    },
+    {
+      "row": 7982,
+      "raw": "guiñadura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑDR"
+    },
+    {
+      "row": 7983,
+      "raw": "guiñaposa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑPS"
+    },
+    {
+      "row": 7984,
+      "raw": "guiñaposo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GÑPS"
+    },
+    {
+      "row": 8031,
+      "raw": "gurruño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: GRRÑ"
+    },
+    {
+      "row": 8073,
+      "raw": "halagüeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HLGÑ"
+    },
+    {
+      "row": 8074,
+      "raw": "halagüeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HLGÑ"
+    },
+    {
+      "row": 8110,
+      "raw": "harqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HRQÑ"
+    },
+    {
+      "row": 8111,
+      "raw": "harqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HRQÑ"
+    },
+    {
+      "row": 8138,
+      "raw": "hazañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HZÑR"
+    },
+    {
+      "row": 8139,
+      "raw": "hazañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HZÑR"
+    },
+    {
+      "row": 8140,
+      "raw": "hazañería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HZÑR"
+    },
+    {
+      "row": 8141,
+      "raw": "hazañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HZÑR"
+    },
+    {
+      "row": 8142,
+      "raw": "hazañosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HZÑS"
+    },
+    {
+      "row": 8143,
+      "raw": "hazañoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HZÑS"
+    },
+    {
+      "row": 8193,
+      "raw": "herreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HRRÑ"
+    },
+    {
+      "row": 8194,
+      "raw": "herreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HRRÑ"
+    },
+    {
+      "row": 8232,
+      "raw": "Higuera",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 8280,
+      "raw": "hogareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HGRÑ"
+    },
+    {
+      "row": 8281,
+      "raw": "hogareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HGRÑ"
+    },
+    {
+      "row": 8338,
+      "raw": "huanuqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HNQÑ"
+    },
+    {
+      "row": 8339,
+      "raw": "huanuqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HNQÑ"
+    },
+    {
+      "row": 8354,
+      "raw": "huelveña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HLVÑ"
+    },
+    {
+      "row": 8355,
+      "raw": "huelveño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HLVÑ"
+    },
+    {
+      "row": 8398,
+      "raw": "humacaeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HMCÑ"
+    },
+    {
+      "row": 8399,
+      "raw": "humacaeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: HMCÑ"
+    },
+    {
+      "row": 8440,
+      "raw": "ibaguereña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BGRÑ"
+    },
+    {
+      "row": 8441,
+      "raw": "ibaguereño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BGRÑ"
+    },
+    {
+      "row": 8442,
+      "raw": "ibarreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRRÑ"
+    },
+    {
+      "row": 8443,
+      "raw": "ibarreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: BRRÑ"
+    },
+    {
+      "row": 8471,
+      "raw": "Ignacio",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 8495,
+      "raw": "ikurriña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: KRRÑ"
+    },
+    {
+      "row": 8607,
+      "raw": "iñiguista",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑGST"
+    },
+    {
+      "row": 8657,
+      "raw": "ipso iure",
+      "reason": "multipalabra"
+    },
+    {
+      "row": 8675,
+      "raw": "IRPF",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 8682,
+      "raw": "irupaneña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RPNÑ"
+    },
+    {
+      "row": 8683,
+      "raw": "irupaneño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RPNÑ"
+    },
+    {
+      "row": 8688,
+      "raw": "ISBN",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 8720,
+      "raw": "ISSN",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 8721,
+      "raw": "istmeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STMÑ"
+    },
+    {
+      "row": 8722,
+      "raw": "istmeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: STMÑ"
+    },
+    {
+      "row": 8786,
+      "raw": "jalapeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JLPÑ"
+    },
+    {
+      "row": 8787,
+      "raw": "jalapeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JLPÑ"
+    },
+    {
+      "row": 8801,
+      "raw": "Jamaica",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 8817,
+      "raw": "Japón",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 8834,
+      "raw": "jarameña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JRMÑ"
+    },
+    {
+      "row": 8835,
+      "raw": "jarameño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JRMÑ"
+    },
+    {
+      "row": 8863,
+      "raw": "javiereña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JVRÑ"
+    },
+    {
+      "row": 8864,
+      "raw": "javiereño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JVRÑ"
+    },
+    {
+      "row": 8875,
+      "raw": "Jehová",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 8886,
+      "raw": "Jericó",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 8891,
+      "raw": "Jesús",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 8923,
+      "raw": "jiñocuabo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JÑCB"
+    },
+    {
+      "row": 8991,
+      "raw": "Juanelo",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 9033,
+      "raw": "juliaqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JLQÑ"
+    },
+    {
+      "row": 9034,
+      "raw": "juliaqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: JLQÑ"
+    },
+    {
+      "row": 9089,
+      "raw": "Koch",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 9149,
+      "raw": "lagañosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGÑS"
+    },
+    {
+      "row": 9150,
+      "raw": "lagañoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGÑS"
+    },
+    {
+      "row": 9171,
+      "raw": "lampeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMPÑ"
+    },
+    {
+      "row": 9172,
+      "raw": "lampeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMPÑ"
+    },
+    {
+      "row": 9173,
+      "raw": "lampiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMPÑ"
+    },
+    {
+      "row": 9174,
+      "raw": "lampiño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMPÑ"
+    },
+    {
+      "row": 9178,
+      "raw": "lañador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑDR"
+    },
+    {
+      "row": 9179,
+      "raw": "lañadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑDR"
+    },
+    {
+      "row": 9261,
+      "raw": "laus Deo",
+      "reason": "multipalabra"
+    },
+    {
+      "row": 9290,
+      "raw": "legañil",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGÑL"
+    },
+    {
+      "row": 9292,
+      "raw": "legañosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGÑS"
+    },
+    {
+      "row": 9293,
+      "raw": "legañoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGÑS"
+    },
+    {
+      "row": 9301,
+      "raw": "Leiden",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 9321,
+      "raw": "leñador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑDR"
+    },
+    {
+      "row": 9322,
+      "raw": "leñadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑDR"
+    },
+    {
+      "row": 9323,
+      "raw": "leñatear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑTR"
+    },
+    {
+      "row": 9324,
+      "raw": "leñatera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑTR"
+    },
+    {
+      "row": 9325,
+      "raw": "leñatero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LÑTR"
+    },
+    {
+      "row": 9394,
+      "raw": "Líbano",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 9617,
+      "raw": "lodoñero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LDÑR"
+    },
+    {
+      "row": 9654,
+      "raw": "López",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 9681,
+      "raw": "LSD",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 9686,
+      "raw": "lucaneña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LCNÑ"
+    },
+    {
+      "row": 9687,
+      "raw": "lucaneño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LCNÑ"
+    },
+    {
+      "row": 9723,
+      "raw": "lugareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGRÑ"
+    },
+    {
+      "row": 9724,
+      "raw": "lugareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LGRÑ"
+    },
+    {
+      "row": 9812,
+      "raw": "madagaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MDGÑ"
+    },
+    {
+      "row": 9821,
+      "raw": "madreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MDRÑ"
+    },
+    {
+      "row": 9822,
+      "raw": "madroño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MDRÑ"
+    },
+    {
+      "row": 9831,
+      "raw": "magañosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MGÑS"
+    },
+    {
+      "row": 9832,
+      "raw": "magañoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MGÑS"
+    },
+    {
+      "row": 9882,
+      "raw": "malagueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MLGÑ"
+    },
+    {
+      "row": 9883,
+      "raw": "malagueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MLGÑ"
+    },
+    {
+      "row": 9916,
+      "raw": "Malta",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 9945,
+      "raw": "mañanear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑNR"
+    },
+    {
+      "row": 9946,
+      "raw": "mañanera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑNR"
+    },
+    {
+      "row": 9947,
+      "raw": "mañanero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑNR"
+    },
+    {
+      "row": 9948,
+      "raw": "mañanica",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑNC"
+    },
+    {
+      "row": 9949,
+      "raw": "mañanita",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑNT"
+    },
+    {
+      "row": 9953,
+      "raw": "manatieña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNTÑ"
+    },
+    {
+      "row": 9954,
+      "raw": "manatieño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNTÑ"
+    },
+    {
+      "row": 9967,
+      "raw": "mañerear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑRR"
+    },
+    {
+      "row": 9978,
+      "raw": "mangüeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNGÑ"
+    },
+    {
+      "row": 9988,
+      "raw": "Manila",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 9989,
+      "raw": "manileña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNLÑ"
+    },
+    {
+      "row": 9990,
+      "raw": "manileño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNLÑ"
+    },
+    {
+      "row": 10003,
+      "raw": "mañosear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑSR"
+    },
+    {
+      "row": 10009,
+      "raw": "manteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNTÑ"
+    },
+    {
+      "row": 10010,
+      "raw": "manteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNTÑ"
+    },
+    {
+      "row": 10017,
+      "raw": "mañuelas",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑLS"
+    },
+    {
+      "row": 10035,
+      "raw": "marañal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑL"
+    },
+    {
+      "row": 10036,
+      "raw": "marañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑR"
+    },
+    {
+      "row": 10037,
+      "raw": "marañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑR"
+    },
+    {
+      "row": 10038,
+      "raw": "marañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑR"
+    },
+    {
+      "row": 10039,
+      "raw": "marañón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑN"
+    },
+    {
+      "row": 10040,
+      "raw": "marañosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑS"
+    },
+    {
+      "row": 10041,
+      "raw": "marañoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑS"
+    },
+    {
+      "row": 10044,
+      "raw": "marceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRCÑ"
+    },
+    {
+      "row": 10045,
+      "raw": "marceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRCÑ"
+    },
+    {
+      "row": 10066,
+      "raw": "marimoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRMÑ"
+    },
+    {
+      "row": 10088,
+      "raw": "Marta",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 10202,
+      "raw": "mediacaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MDCÑ"
+    },
+    {
+      "row": 10225,
+      "raw": "mediopaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MDPÑ"
+    },
+    {
+      "row": 10323,
+      "raw": "merideña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRDÑ"
+    },
+    {
+      "row": 10324,
+      "raw": "merideño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRDÑ"
+    },
+    {
+      "row": 10326,
+      "raw": "meriñaque",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑQ"
+    },
+    {
+      "row": 10346,
+      "raw": "meseteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MSTÑ"
+    },
+    {
+      "row": 10347,
+      "raw": "meseteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MSTÑ"
+    },
+    {
+      "row": 10355,
+      "raw": "mesteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MSTÑ"
+    },
+    {
+      "row": 10356,
+      "raw": "mesteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MSTÑ"
+    },
+    {
+      "row": 10377,
+      "raw": "México",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 10414,
+      "raw": "migraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MGRÑ"
+    },
+    {
+      "row": 10415,
+      "raw": "migueleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MGLÑ"
+    },
+    {
+      "row": 10416,
+      "raw": "migueleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MGLÑ"
+    },
+    {
+      "row": 10491,
+      "raw": "miriñaque",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRÑQ"
+    },
+    {
+      "row": 10534,
+      "raw": "mizqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MZQÑ"
+    },
+    {
+      "row": 10535,
+      "raw": "mizqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MZQÑ"
+    },
+    {
+      "row": 10577,
+      "raw": "moguereña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MGRÑ"
+    },
+    {
+      "row": 10578,
+      "raw": "moguereño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MGRÑ"
+    },
+    {
+      "row": 10640,
+      "raw": "moñista",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑST"
+    },
+    {
+      "row": 10656,
+      "raw": "montaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNTÑ"
+    },
+    {
+      "row": 10659,
+      "raw": "montiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MNTÑ"
+    },
+    {
+      "row": 10685,
+      "raw": "morceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRCÑ"
+    },
+    {
+      "row": 10693,
+      "raw": "Morfeo",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 10696,
+      "raw": "morgaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRGÑ"
+    },
+    {
+      "row": 10710,
+      "raw": "morriña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRRÑ"
+    },
+    {
+      "row": 10712,
+      "raw": "morroña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRRÑ"
+    },
+    {
+      "row": 10713,
+      "raw": "morroño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRRÑ"
+    },
+    {
+      "row": 10716,
+      "raw": "mortiño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRTÑ"
+    },
+    {
+      "row": 10831,
+      "raw": "muñequear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑQR"
+    },
+    {
+      "row": 10832,
+      "raw": "muñequera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑQR"
+    },
+    {
+      "row": 10833,
+      "raw": "muñequería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑQR"
+    },
+    {
+      "row": 10834,
+      "raw": "muñequero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑQR"
+    },
+    {
+      "row": 10835,
+      "raw": "muñequito",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑQT"
+    },
+    {
+      "row": 10836,
+      "raw": "muñidor",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑDR"
+    },
+    {
+      "row": 10837,
+      "raw": "muñidora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑDR"
+    },
+    {
+      "row": 10838,
+      "raw": "muñonera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MÑNR"
+    },
+    {
+      "row": 10847,
+      "raw": "murgaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MRGÑ"
+    },
+    {
+      "row": 10862,
+      "raw": "musaraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MSRÑ"
+    },
+    {
+      "row": 10869,
+      "raw": "musgaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: MSGÑ"
+    },
+    {
+      "row": 10915,
+      "raw": "ñacundá",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑCND"
+    },
+    {
+      "row": 10916,
+      "raw": "ñacurutú",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑCRT"
+    },
+    {
+      "row": 10937,
+      "raw": "ñampeada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑMPD"
+    },
+    {
+      "row": 10938,
+      "raw": "ñampeado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑMPD"
+    },
+    {
+      "row": 10939,
+      "raw": "ñampiar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑMPR"
+    },
+    {
+      "row": 10942,
+      "raw": "ñandutí",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑNDT"
+    },
+    {
+      "row": 10944,
+      "raw": "ñangal",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑNGL"
+    },
+    {
+      "row": 10945,
+      "raw": "ñángara",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑNGR"
+    },
+    {
+      "row": 10946,
+      "raw": "ñangazo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑNGZ"
+    },
+    {
+      "row": 10947,
+      "raw": "ñanguear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑNGR"
+    },
+    {
+      "row": 10948,
+      "raw": "ñanguero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑNGR"
+    },
+    {
+      "row": 10949,
+      "raw": "ñañiguismo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 5: ÑÑGSM"
+    },
+    {
+      "row": 10955,
+      "raw": "ñapanga",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑPNG"
+    },
+    {
+      "row": 10956,
+      "raw": "ñapango",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑPNG"
+    },
+    {
+      "row": 10959,
+      "raw": "ñapindá",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑPND"
+    },
+    {
+      "row": 10969,
+      "raw": "nasqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSQÑ"
+    },
+    {
+      "row": 10970,
+      "raw": "nasqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NSQÑ"
+    },
+    {
+      "row": 10994,
+      "raw": "navideña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NVDÑ"
+    },
+    {
+      "row": 10995,
+      "raw": "navideño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NVDÑ"
+    },
+    {
+      "row": 11013,
+      "raw": "ñeembuqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 5: ÑMBQÑ"
+    },
+    {
+      "row": 11014,
+      "raw": "ñeembuqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 5: ÑMBQÑ"
+    },
+    {
+      "row": 11154,
+      "raw": "ñombla",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑMBL"
+    },
+    {
+      "row": 11155,
+      "raw": "ñomblo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑMBL"
+    },
+    {
+      "row": 11173,
+      "raw": "norteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NRTÑ"
+    },
+    {
+      "row": 11174,
+      "raw": "norteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: NRTÑ"
+    },
+    {
+      "row": 11209,
+      "raw": "ñublado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑBLD"
+    },
+    {
+      "row": 11210,
+      "raw": "ñublar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑBLR"
+    },
+    {
+      "row": 11211,
+      "raw": "ñublina",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑBLN"
+    },
+    {
+      "row": 11212,
+      "raw": "ñublino",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑBLN"
+    },
+    {
+      "row": 11214,
+      "raw": "ñublosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑBLS"
+    },
+    {
+      "row": 11215,
+      "raw": "ñubloso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑBLS"
+    },
+    {
+      "row": 11221,
+      "raw": "ñudillo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑDLL"
+    },
+    {
+      "row": 11282,
+      "raw": "ocotaleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CTLÑ"
+    },
+    {
+      "row": 11283,
+      "raw": "ocotaleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: CTLÑ"
+    },
+    {
+      "row": 11370,
+      "raw": "olimareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMRÑ"
+    },
+    {
+      "row": 11371,
+      "raw": "olimareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMRÑ"
+    },
+    {
+      "row": 11372,
+      "raw": "olimpeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMPÑ"
+    },
+    {
+      "row": 11373,
+      "raw": "olimpeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: LMPÑ"
+    },
+    {
+      "row": 11494,
+      "raw": "ordeñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RDÑR"
+    },
+    {
+      "row": 11572,
+      "raw": "Óscar",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 11594,
+      "raw": "otavaleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TVLÑ"
+    },
+    {
+      "row": 11595,
+      "raw": "otavaleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TVLÑ"
+    },
+    {
+      "row": 11614,
+      "raw": "otumbeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TMBÑ"
+    },
+    {
+      "row": 11615,
+      "raw": "otumbeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TMBÑ"
+    },
+    {
+      "row": 11651,
+      "raw": "Pablo",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 11785,
+      "raw": "pañalera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLR"
+    },
+    {
+      "row": 11786,
+      "raw": "pañalón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLN"
+    },
+    {
+      "row": 11788,
+      "raw": "panameña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNMÑ"
+    },
+    {
+      "row": 11789,
+      "raw": "panameño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNMÑ"
+    },
+    {
+      "row": 11790,
+      "raw": "pañanga",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑNG"
+    },
+    {
+      "row": 11803,
+      "raw": "pañetar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 11813,
+      "raw": "pañizuelo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑZL"
+    },
+    {
+      "row": 11816,
+      "raw": "pañolada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLD"
+    },
+    {
+      "row": 11817,
+      "raw": "pañolera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLR"
+    },
+    {
+      "row": 11818,
+      "raw": "pañolería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLR"
+    },
+    {
+      "row": 11819,
+      "raw": "pañolero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLR"
+    },
+    {
+      "row": 11820,
+      "raw": "pañoleta",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLT"
+    },
+    {
+      "row": 11822,
+      "raw": "pañolito",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLT"
+    },
+    {
+      "row": 11823,
+      "raw": "pañolón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLN"
+    },
+    {
+      "row": 11874,
+      "raw": "paraiseña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRSÑ"
+    },
+    {
+      "row": 11875,
+      "raw": "paraiseño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRSÑ"
+    },
+    {
+      "row": 11891,
+      "raw": "paredaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRDÑ"
+    },
+    {
+      "row": 11892,
+      "raw": "paredaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRDÑ"
+    },
+    {
+      "row": 11907,
+      "raw": "París",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 11954,
+      "raw": "pasqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSQÑ"
+    },
+    {
+      "row": 11955,
+      "raw": "pasqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSQÑ"
+    },
+    {
+      "row": 11959,
+      "raw": "pastueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSTÑ"
+    },
+    {
+      "row": 11960,
+      "raw": "pastueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSTÑ"
+    },
+    {
+      "row": 11997,
+      "raw": "patraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTRÑ"
+    },
+    {
+      "row": 12046,
+      "raw": "PCR",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 12068,
+      "raw": "pechoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PCHÑ"
+    },
+    {
+      "row": 12069,
+      "raw": "pechoño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PCHÑ"
+    },
+    {
+      "row": 12089,
+      "raw": "pedigüeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PDGÑ"
+    },
+    {
+      "row": 12090,
+      "raw": "pedigüeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PDGÑ"
+    },
+    {
+      "row": 12125,
+      "raw": "peldaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PLDÑ"
+    },
+    {
+      "row": 12163,
+      "raw": "peñasco",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑSC"
+    },
+    {
+      "row": 12170,
+      "raw": "peñerar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑRR"
+    },
+    {
+      "row": 12175,
+      "raw": "peñista",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑST"
+    },
+    {
+      "row": 12177,
+      "raw": "peñolada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLD"
+    },
+    {
+      "row": 12202,
+      "raw": "pequeñez",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PQÑZ"
+    },
+    {
+      "row": 12203,
+      "raw": "pequeñeza",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PQÑZ"
+    },
+    {
+      "row": 12217,
+      "raw": "pergeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRGÑ"
+    },
+    {
+      "row": 12243,
+      "raw": "perpiaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRPÑ"
+    },
+    {
+      "row": 12260,
+      "raw": "pescuño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSCÑ"
+    },
+    {
+      "row": 12275,
+      "raw": "pestaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSTÑ"
+    },
+    {
+      "row": 12276,
+      "raw": "pestañeo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSTÑ"
+    },
+    {
+      "row": 12278,
+      "raw": "pestiño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSTÑ"
+    },
+    {
+      "row": 12298,
+      "raw": "Petri",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 12416,
+      "raw": "Pinar",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 12417,
+      "raw": "pinareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNRÑ"
+    },
+    {
+      "row": 12418,
+      "raw": "pinareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNRÑ"
+    },
+    {
+      "row": 12419,
+      "raw": "piñatera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 12420,
+      "raw": "piñatero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 12438,
+      "raw": "piñonata",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑNT"
+    },
+    {
+      "row": 12439,
+      "raw": "piñonate",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑNT"
+    },
+    {
+      "row": 12440,
+      "raw": "piñonear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑNR"
+    },
+    {
+      "row": 12441,
+      "raw": "piñonero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑNR"
+    },
+    {
+      "row": 12446,
+      "raw": "pinteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNTÑ"
+    },
+    {
+      "row": 12447,
+      "raw": "pinteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNTÑ"
+    },
+    {
+      "row": 12449,
+      "raw": "Pinto",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 12451,
+      "raw": "piñufla",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑFL"
+    },
+    {
+      "row": 12482,
+      "raw": "pipitaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PPTÑ"
+    },
+    {
+      "row": 12506,
+      "raw": "piriñaca",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRÑC"
+    },
+    {
+      "row": 12532,
+      "raw": "pisqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSQÑ"
+    },
+    {
+      "row": 12533,
+      "raw": "pisqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSQÑ"
+    },
+    {
+      "row": 12540,
+      "raw": "pitañosa",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTÑS"
+    },
+    {
+      "row": 12541,
+      "raw": "pitañoso",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTÑS"
+    },
+    {
+      "row": 12591,
+      "raw": "plañido",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PLÑD"
+    },
+    {
+      "row": 12592,
+      "raw": "plañir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PLÑR"
+    },
+    {
+      "row": 12631,
+      "raw": "PNN",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 12688,
+      "raw": "Polonia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 12704,
+      "raw": "ponceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNCÑ"
+    },
+    {
+      "row": 12705,
+      "raw": "ponceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNCÑ"
+    },
+    {
+      "row": 12715,
+      "raw": "ponzoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNZÑ"
+    },
+    {
+      "row": 12744,
+      "raw": "porteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRTÑ"
+    },
+    {
+      "row": 12745,
+      "raw": "porteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRTÑ"
+    },
+    {
+      "row": 12748,
+      "raw": "posadeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSDÑ"
+    },
+    {
+      "row": 12749,
+      "raw": "posadeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PSDÑ"
+    },
+    {
+      "row": 12792,
+      "raw": "pradeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRDÑ"
+    },
+    {
+      "row": 12793,
+      "raw": "pradeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRDÑ"
+    },
+    {
+      "row": 12806,
+      "raw": "preñada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRÑD"
+    },
+    {
+      "row": 12807,
+      "raw": "preñado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRÑD"
+    },
+    {
+      "row": 12808,
+      "raw": "preñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRÑR"
+    },
+    {
+      "row": 12809,
+      "raw": "preñez",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PRÑZ"
+    },
+    {
+      "row": 12857,
+      "raw": "Prusia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 12860,
+      "raw": "‒́ptera",
+      "reason": "afijo"
+    },
+    {
+      "row": 12861,
+      "raw": "‒́ptero",
+      "reason": "afijo"
+    },
+    {
+      "row": 12913,
+      "raw": "puñalada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLD"
+    },
+    {
+      "row": 12914,
+      "raw": "puñalero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLR"
+    },
+    {
+      "row": 12915,
+      "raw": "puñales",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑLS"
+    },
+    {
+      "row": 12916,
+      "raw": "punateña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNTÑ"
+    },
+    {
+      "row": 12917,
+      "raw": "punateño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PNTÑ"
+    },
+    {
+      "row": 12918,
+      "raw": "puñetazo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTZ"
+    },
+    {
+      "row": 12919,
+      "raw": "puñeteada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTD"
+    },
+    {
+      "row": 12920,
+      "raw": "puñetear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 12921,
+      "raw": "puñetera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 12922,
+      "raw": "puñetería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 12923,
+      "raw": "puñetero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PÑTR"
+    },
+    {
+      "row": 12956,
+      "raw": "putañear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTÑR"
+    },
+    {
+      "row": 12957,
+      "raw": "putañería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTÑR"
+    },
+    {
+      "row": 12958,
+      "raw": "putañero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTÑR"
+    },
+    {
+      "row": 12965,
+      "raw": "putreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTRÑ"
+    },
+    {
+      "row": 12966,
+      "raw": "putreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: PTRÑ"
+    },
+    {
+      "row": 12978,
+      "raw": "PVC",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 13069,
+      "raw": "quiñonero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: QÑNR"
+    },
+    {
+      "row": 13092,
+      "raw": "quitasueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: QTSÑ"
+    },
+    {
+      "row": 13209,
+      "raw": "Ramos",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 13238,
+      "raw": "rapiñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RPÑR"
+    },
+    {
+      "row": 13256,
+      "raw": "rascuño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RSCÑ"
+    },
+    {
+      "row": 13264,
+      "raw": "rasguño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RSGÑ"
+    },
+    {
+      "row": 13269,
+      "raw": "rasquiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RSQÑ"
+    },
+    {
+      "row": 13308,
+      "raw": "RDSI",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 13309,
+      "raw": "reacuñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RCÑR"
+    },
+    {
+      "row": 13329,
+      "raw": "Réaumur",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 13334,
+      "raw": "rebañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBÑR"
+    },
+    {
+      "row": 13336,
+      "raw": "rebañega",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBÑG"
+    },
+    {
+      "row": 13337,
+      "raw": "rebañego",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBÑG"
+    },
+    {
+      "row": 13339,
+      "raw": "rebatiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBTÑ"
+    },
+    {
+      "row": 13346,
+      "raw": "rebociño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBCÑ"
+    },
+    {
+      "row": 13355,
+      "raw": "rebujiña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBJÑ"
+    },
+    {
+      "row": 13372,
+      "raw": "receñir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RCÑR"
+    },
+    {
+      "row": 13395,
+      "raw": "recuñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RCÑR"
+    },
+    {
+      "row": 13431,
+      "raw": "regañada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑD"
+    },
+    {
+      "row": 13432,
+      "raw": "regañado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑD"
+    },
+    {
+      "row": 13433,
+      "raw": "regañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑR"
+    },
+    {
+      "row": 13434,
+      "raw": "regañera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑR"
+    },
+    {
+      "row": 13435,
+      "raw": "regañina",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑN"
+    },
+    {
+      "row": 13436,
+      "raw": "regañir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑR"
+    },
+    {
+      "row": 13437,
+      "raw": "regañón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑN"
+    },
+    {
+      "row": 13438,
+      "raw": "regañona",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RGÑN"
+    },
+    {
+      "row": 13488,
+      "raw": "rejiñol",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RJÑL"
+    },
+    {
+      "row": 13540,
+      "raw": "Rengo",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 13541,
+      "raw": "reñidero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑDR"
+    },
+    {
+      "row": 13542,
+      "raw": "reñidor",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑDR"
+    },
+    {
+      "row": 13543,
+      "raw": "reñidora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑDR"
+    },
+    {
+      "row": 13544,
+      "raw": "reñidura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑDR"
+    },
+    {
+      "row": 13578,
+      "raw": "rescaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RSCÑ"
+    },
+    {
+      "row": 13582,
+      "raw": "reseñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RSÑR"
+    },
+    {
+      "row": 13593,
+      "raw": "restaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RSTÑ"
+    },
+    {
+      "row": 13609,
+      "raw": "reteñir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RTÑR"
+    },
+    {
+      "row": 13615,
+      "raw": "retiñir",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RTÑR"
+    },
+    {
+      "row": 13619,
+      "raw": "retoñar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RTÑR"
+    },
+    {
+      "row": 13657,
+      "raw": "ribereña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBRÑ"
+    },
+    {
+      "row": 13658,
+      "raw": "ribereño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBRÑ"
+    },
+    {
+      "row": 13662,
+      "raw": "ricadueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RCDÑ"
+    },
+    {
+      "row": 13689,
+      "raw": "riñonada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑND"
+    },
+    {
+      "row": 13690,
+      "raw": "riñonera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑNR"
+    },
+    {
+      "row": 13734,
+      "raw": "robiñano",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RBÑN"
+    },
+    {
+      "row": 13770,
+      "raw": "Rodas",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 13821,
+      "raw": "rondeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RNDÑ"
+    },
+    {
+      "row": 13822,
+      "raw": "rondeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RNDÑ"
+    },
+    {
+      "row": 13825,
+      "raw": "roñosería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RÑSR"
+    },
+    {
+      "row": 13927,
+      "raw": "ruiseñor",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: RSÑR"
+    },
+    {
+      "row": 13967,
+      "raw": "sabadeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SBDÑ"
+    },
+    {
+      "row": 13974,
+      "raw": "sabañón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SBÑN"
+    },
+    {
+      "row": 13998,
+      "raw": "sacabeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCBÑ"
+    },
+    {
+      "row": 13999,
+      "raw": "sacabeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCBÑ"
+    },
+    {
+      "row": 14002,
+      "raw": "sacaliña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCLÑ"
+    },
+    {
+      "row": 14047,
+      "raw": "Sajonia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 14057,
+      "raw": "salciña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SLCÑ"
+    },
+    {
+      "row": 14085,
+      "raw": "salteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SLTÑ"
+    },
+    {
+      "row": 14086,
+      "raw": "salteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SLTÑ"
+    },
+    {
+      "row": 14125,
+      "raw": "sangüeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SNGÑ"
+    },
+    {
+      "row": 14133,
+      "raw": "santeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SNTÑ"
+    },
+    {
+      "row": 14134,
+      "raw": "santeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SNTÑ"
+    },
+    {
+      "row": 14244,
+      "raw": "Segovia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 14281,
+      "raw": "señalada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑLD"
+    },
+    {
+      "row": 14282,
+      "raw": "señalado",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑLD"
+    },
+    {
+      "row": 14283,
+      "raw": "señalar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑLR"
+    },
+    {
+      "row": 14284,
+      "raw": "señalero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑLR"
+    },
+    {
+      "row": 14292,
+      "raw": "señolear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑLR"
+    },
+    {
+      "row": 14293,
+      "raw": "señorada",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRD"
+    },
+    {
+      "row": 14294,
+      "raw": "señoraje",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRJ"
+    },
+    {
+      "row": 14295,
+      "raw": "señoreaje",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRJ"
+    },
+    {
+      "row": 14296,
+      "raw": "señorear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRR"
+    },
+    {
+      "row": 14297,
+      "raw": "señorial",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRL"
+    },
+    {
+      "row": 14298,
+      "raw": "señoril",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRL"
+    },
+    {
+      "row": 14299,
+      "raw": "señorita",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRT"
+    },
+    {
+      "row": 14300,
+      "raw": "señorito",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRT"
+    },
+    {
+      "row": 14301,
+      "raw": "señorón",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRN"
+    },
+    {
+      "row": 14302,
+      "raw": "señorona",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑRN"
+    },
+    {
+      "row": 14453,
+      "raw": "sine die",
+      "reason": "multipalabra"
+    },
+    {
+      "row": 14500,
+      "raw": "SMS",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 14516,
+      "raw": "sobreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SBRÑ"
+    },
+    {
+      "row": 14517,
+      "raw": "sobreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SBRÑ"
+    },
+    {
+      "row": 14521,
+      "raw": "socaliña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCLÑ"
+    },
+    {
+      "row": 14593,
+      "raw": "somoteña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SMTÑ"
+    },
+    {
+      "row": 14594,
+      "raw": "somoteño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SMTÑ"
+    },
+    {
+      "row": 14595,
+      "raw": "soñación",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑCN"
+    },
+    {
+      "row": 14598,
+      "raw": "soñador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑDR"
+    },
+    {
+      "row": 14599,
+      "raw": "soñadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SÑDR"
+    },
+    {
+      "row": 14629,
+      "raw": "sorateña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SRTÑ"
+    },
+    {
+      "row": 14630,
+      "raw": "sorateño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SRTÑ"
+    },
+    {
+      "row": 14646,
+      "raw": "sosañar",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SSÑR"
+    },
+    {
+      "row": 14685,
+      "raw": "sucreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCRÑ"
+    },
+    {
+      "row": 14686,
+      "raw": "sucreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SCRÑ"
+    },
+    {
+      "row": 14751,
+      "raw": "supitaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SPTÑ"
+    },
+    {
+      "row": 14752,
+      "raw": "supitaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SPTÑ"
+    },
+    {
+      "row": 14757,
+      "raw": "surcaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: SRCÑ"
+    },
+    {
+      "row": 14796,
+      "raw": "tableña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TBLÑ"
+    },
+    {
+      "row": 14797,
+      "raw": "tableño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TBLÑ"
+    },
+    {
+      "row": 14805,
+      "raw": "tacañear",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCÑR"
+    },
+    {
+      "row": 14806,
+      "raw": "tacañería",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCÑR"
+    },
+    {
+      "row": 14818,
+      "raw": "tacneña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCNÑ"
+    },
+    {
+      "row": 14819,
+      "raw": "tacneño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCNÑ"
+    },
+    {
+      "row": 14856,
+      "raw": "talareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TLRÑ"
+    },
+    {
+      "row": 14857,
+      "raw": "talareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TLRÑ"
+    },
+    {
+      "row": 14878,
+      "raw": "tamañita",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TMÑT"
+    },
+    {
+      "row": 14879,
+      "raw": "tamañito",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TMÑT"
+    },
+    {
+      "row": 14897,
+      "raw": "tañedor",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TÑDR"
+    },
+    {
+      "row": 14898,
+      "raw": "tañedora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TÑDR"
+    },
+    {
+      "row": 14976,
+      "raw": "tarateña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRTÑ"
+    },
+    {
+      "row": 14977,
+      "raw": "tarateño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRTÑ"
+    },
+    {
+      "row": 14993,
+      "raw": "tarifeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRFÑ"
+    },
+    {
+      "row": 14994,
+      "raw": "tarifeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRFÑ"
+    },
+    {
+      "row": 14995,
+      "raw": "tarijeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRJÑ"
+    },
+    {
+      "row": 14996,
+      "raw": "tarijeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRJÑ"
+    },
+    {
+      "row": 15002,
+      "raw": "tarmeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRMÑ"
+    },
+    {
+      "row": 15003,
+      "raw": "tarmeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRMÑ"
+    },
+    {
+      "row": 15008,
+      "raw": "tarreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRRÑ"
+    },
+    {
+      "row": 15047,
+      "raw": "taxqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TXQÑ"
+    },
+    {
+      "row": 15048,
+      "raw": "taxqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TXQÑ"
+    },
+    {
+      "row": 15069,
+      "raw": "tecleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCLÑ"
+    },
+    {
+      "row": 15070,
+      "raw": "tecleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TCLÑ"
+    },
+    {
+      "row": 15105,
+      "raw": "telaraña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TLRÑ"
+    },
+    {
+      "row": 15115,
+      "raw": "Telmo",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 15137,
+      "raw": "teñible",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TÑBL"
+    },
+    {
+      "row": 15139,
+      "raw": "teñidura",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TÑDR"
+    },
+    {
+      "row": 15165,
+      "raw": "tepiqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TPQÑ"
+    },
+    {
+      "row": 15166,
+      "raw": "tepiqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TPQÑ"
+    },
+    {
+      "row": 15190,
+      "raw": "terreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRRÑ"
+    },
+    {
+      "row": 15191,
+      "raw": "terreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRRÑ"
+    },
+    {
+      "row": 15193,
+      "raw": "terruño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRRÑ"
+    },
+    {
+      "row": 15246,
+      "raw": "Tíbet",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 15329,
+      "raw": "tipuaneña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TPNÑ"
+    },
+    {
+      "row": 15330,
+      "raw": "tipuaneño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TPNÑ"
+    },
+    {
+      "row": 15348,
+      "raw": "tiritaña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRTÑ"
+    },
+    {
+      "row": 15349,
+      "raw": "tiritaño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRTÑ"
+    },
+    {
+      "row": 15385,
+      "raw": "TNT",
+      "reason": "abreviatura"
+    },
+    {
+      "row": 15394,
+      "raw": "toboseña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TBSÑ"
+    },
+    {
+      "row": 15395,
+      "raw": "toboseño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TBSÑ"
+    },
+    {
+      "row": 15429,
+      "raw": "Toledo",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 15437,
+      "raw": "toluqueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TLQÑ"
+    },
+    {
+      "row": 15438,
+      "raw": "toluqueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TLQÑ"
+    },
+    {
+      "row": 15537,
+      "raw": "totoreña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TTRÑ"
+    },
+    {
+      "row": 15538,
+      "raw": "totoreño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TTRÑ"
+    },
+    {
+      "row": 15611,
+      "raw": "trigueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRGÑ"
+    },
+    {
+      "row": 15612,
+      "raw": "trigueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TRGÑ"
+    },
+    {
+      "row": 15653,
+      "raw": "Troya",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 15718,
+      "raw": "Túnez",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 15728,
+      "raw": "tupiceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TPCÑ"
+    },
+    {
+      "row": 15729,
+      "raw": "tupiceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: TPCÑ"
+    },
+    {
+      "row": 15820,
+      "raw": "uñilarga",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑLRG"
+    },
+    {
+      "row": 15821,
+      "raw": "uñilargo",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ÑLRG"
+    },
+    {
+      "row": 15973,
+      "raw": "valleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VLLÑ"
+    },
+    {
+      "row": 15974,
+      "raw": "valleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VLLÑ"
+    },
+    {
+      "row": 16014,
+      "raw": "Varolio",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 16088,
+      "raw": "Venecia",
+      "reason": "nombre_propio"
+    },
+    {
+      "row": 16120,
+      "raw": "vergoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VRGÑ"
+    },
+    {
+      "row": 16121,
+      "raw": "vergüeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VRGÑ"
+    },
+    {
+      "row": 16146,
+      "raw": "viacheña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VCHÑ"
+    },
+    {
+      "row": 16147,
+      "raw": "viacheño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VCHÑ"
+    },
+    {
+      "row": 16195,
+      "raw": "viñadera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑDR"
+    },
+    {
+      "row": 16196,
+      "raw": "viñadero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑDR"
+    },
+    {
+      "row": 16197,
+      "raw": "viñador",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑDR"
+    },
+    {
+      "row": 16198,
+      "raw": "viñadora",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑDR"
+    },
+    {
+      "row": 16203,
+      "raw": "viñatera",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑTR"
+    },
+    {
+      "row": 16204,
+      "raw": "viñatero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑTR"
+    },
+    {
+      "row": 16211,
+      "raw": "viñetero",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VÑTR"
+    },
+    {
+      "row": 16248,
+      "raw": "viroleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VRLÑ"
+    },
+    {
+      "row": 16249,
+      "raw": "viroleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VRLÑ"
+    },
+    {
+      "row": 16350,
+      "raw": "vueseñoría",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: VSÑR"
+    },
+    {
+      "row": 16375,
+      "raw": "yacuibeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YCBÑ"
+    },
+    {
+      "row": 16376,
+      "raw": "yacuibeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YCBÑ"
+    },
+    {
+      "row": 16377,
+      "raw": "yacumeña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YCMÑ"
+    },
+    {
+      "row": 16378,
+      "raw": "yacumeño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YCMÑ"
+    },
+    {
+      "row": 16456,
+      "raw": "yotaleña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YTLÑ"
+    },
+    {
+      "row": 16457,
+      "raw": "yotaleño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YTLÑ"
+    },
+    {
+      "row": 16470,
+      "raw": "yungueña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YNGÑ"
+    },
+    {
+      "row": 16471,
+      "raw": "yungueño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: YNGÑ"
+    },
+    {
+      "row": 16525,
+      "raw": "zahareña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ZHRÑ"
+    },
+    {
+      "row": 16526,
+      "raw": "zahareño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ZHRÑ"
+    },
+    {
+      "row": 16549,
+      "raw": "zampoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ZMPÑ"
+    },
+    {
+      "row": 16558,
+      "raw": "zanfoña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ZNFÑ"
+    },
+    {
+      "row": 16576,
+      "raw": "zarceña",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ZRCÑ"
+    },
+    {
+      "row": 16577,
+      "raw": "zarceño",
+      "reason": "consonantes_distintas_de_3",
+      "detail": "Tiene 4: ZRCÑ"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 83,
+      "word": "abonaré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 169,
+      "word": "acates",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 249,
+      "word": "achís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 256,
+      "word": "acianos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 270,
+      "word": "ácigos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 410,
+      "word": "además",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 436,
+      "word": "adivas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 453,
+      "word": "adonis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 501,
+      "word": "aerobús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 627,
+      "word": "agnus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 635,
+      "word": "agonías",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 661,
+      "word": "agrás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 725,
+      "word": "águedas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 774,
+      "word": "ahotas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 846,
+      "word": "ajuagas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 901,
+      "word": "alatés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 903,
+      "word": "alavés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1127,
+      "word": "alipús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1133,
+      "word": "alisios",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1221,
+      "word": "alpes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1227,
+      "word": "alquilé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1276,
+      "word": "alzapié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1325,
+      "word": "ambas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1334,
+      "word": "ambos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1354,
+      "word": "amidos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1376,
+      "word": "amnios",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1456,
+      "word": "ananás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1492,
+      "word": "andas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1629,
+      "word": "antepié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1632,
+      "word": "antes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1715,
+      "word": "apenas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1778,
+      "word": "aprés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1848,
+      "word": "aranés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1941,
+      "word": "argos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1986,
+      "word": "armos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 1989,
+      "word": "arnés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2013,
+      "word": "arras",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2075,
+      "word": "arugas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2211,
+      "word": "ataché",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2264,
+      "word": "ateniés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2293,
+      "word": "atlas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2323,
+      "word": "atrás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2396,
+      "word": "autobús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2473,
+      "word": "avilés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2503,
+      "word": "ayalés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2552,
+      "word": "azeuxis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2685,
+      "word": "baipás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2760,
+      "word": "banas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2841,
+      "word": "basis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 2950,
+      "word": "bembé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3016,
+      "word": "bicos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3044,
+      "word": "bilis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3062,
+      "word": "biogás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3103,
+      "word": "bisté",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3131,
+      "word": "blues",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3136,
+      "word": "boatiné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3142,
+      "word": "boboré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3149,
+      "word": "bocas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3231,
+      "word": "bombé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3240,
+      "word": "bongó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3252,
+      "word": "bonus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3269,
+      "word": "bóreas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3384,
+      "word": "bríos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3423,
+      "word": "buces",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3451,
+      "word": "bufos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3533,
+      "word": "buzos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3549,
+      "word": "cabaré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3550,
+      "word": "cabás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3576,
+      "word": "caburé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3577,
+      "word": "cabús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3595,
+      "word": "caché",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3648,
+      "word": "caicobé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3675,
+      "word": "calabó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3689,
+      "word": "calapié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3711,
+      "word": "calés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3718,
+      "word": "calicó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3781,
+      "word": "camias",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3818,
+      "word": "canalé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3830,
+      "word": "canapé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 3969,
+      "word": "caraos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4011,
+      "word": "caries",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4025,
+      "word": "carló",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4028,
+      "word": "carné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4074,
+      "word": "cascué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4091,
+      "word": "casis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4147,
+      "word": "catos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4158,
+      "word": "caucos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4196,
+      "word": "cayapó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4238,
+      "word": "cecias",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4392,
+      "word": "cetís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4400,
+      "word": "chacó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4409,
+      "word": "chalé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4416,
+      "word": "chané",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4425,
+      "word": "chapó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4426,
+      "word": "chaqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4442,
+      "word": "chavó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4470,
+      "word": "chevió",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4485,
+      "word": "chimó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4489,
+      "word": "chiné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4496,
+      "word": "chipé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4512,
+      "word": "chocó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4549,
+      "word": "chulé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4555,
+      "word": "chupé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4721,
+      "word": "claqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4742,
+      "word": "clisé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4942,
+      "word": "comís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4944,
+      "word": "comité",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 4985,
+      "word": "conqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5047,
+      "word": "coras",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5091,
+      "word": "corsé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5147,
+      "word": "coulis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5153,
+      "word": "coxis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5176,
+      "word": "crepé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5266,
+      "word": "cuché",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5363,
+      "word": "cumbé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5379,
+      "word": "cuplé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5427,
+      "word": "curutié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5440,
+      "word": "cusubé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5451,
+      "word": "cutis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5494,
+      "word": "danés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5504,
+      "word": "dares",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5560,
+      "word": "dedeté",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5580,
+      "word": "deixis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5600,
+      "word": "demás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5602,
+      "word": "demasié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5603,
+      "word": "demodé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5649,
+      "word": "desús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5715,
+      "word": "diesis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5729,
+      "word": "dijes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5736,
+      "word": "dimes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5818,
+      "word": "dominó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5853,
+      "word": "dosis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5888,
+      "word": "ducas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 5939,
+      "word": "ecarté",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6112,
+      "word": "emesis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6155,
+      "word": "empós",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6244,
+      "word": "enosis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6288,
+      "word": "envés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6416,
+      "word": "escás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6627,
+      "word": "ethos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6637,
+      "word": "etites",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6708,
+      "word": "exequias",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6760,
+      "word": "facies",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6885,
+      "word": "fauces",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6924,
+      "word": "felús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6956,
+      "word": "feroés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 6993,
+      "word": "ficus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7035,
+      "word": "filis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7054,
+      "word": "finés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7150,
+      "word": "fomes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7171,
+      "word": "foras",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7266,
+      "word": "fueras",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7352,
+      "word": "gaché",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7355,
+      "word": "gachó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7400,
+      "word": "galés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7501,
+      "word": "gatas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7625,
+      "word": "glasé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7643,
+      "word": "gneis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7659,
+      "word": "goles",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7699,
+      "word": "gotelé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7883,
+      "word": "guapomó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7906,
+      "word": "guares",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7938,
+      "word": "guatiné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7952,
+      "word": "guayas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 7972,
+      "word": "guienés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8000,
+      "word": "güirís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8021,
+      "word": "gules",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8051,
+      "word": "habús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8099,
+      "word": "haras",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8254,
+      "word": "hioides",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8380,
+      "word": "huichó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8422,
+      "word": "humus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8456,
+      "word": "ictus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8670,
+      "word": "iritis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8673,
+      "word": "iroqués",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8680,
+      "word": "irunés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8687,
+      "word": "ísatis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8764,
+      "word": "jacuané",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8772,
+      "word": "jaenés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8804,
+      "word": "jamás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8811,
+      "word": "jamúas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8825,
+      "word": "jaqués",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 8912,
+      "word": "jijas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9003,
+      "word": "judas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9013,
+      "word": "jueves",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9035,
+      "word": "jumas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9186,
+      "word": "landó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9307,
+      "word": "lejas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9309,
+      "word": "lejos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9327,
+      "word": "leneas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9338,
+      "word": "leonés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9463,
+      "word": "limes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9496,
+      "word": "lionés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9501,
+      "word": "lipes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9505,
+      "word": "lipis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9527,
+      "word": "lisis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9539,
+      "word": "litis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9614,
+      "word": "locus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9624,
+      "word": "logis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9625,
+      "word": "logos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9661,
+      "word": "loquios",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9726,
+      "word": "lugués",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9746,
+      "word": "lunes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9755,
+      "word": "lupus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9756,
+      "word": "luqués",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9793,
+      "word": "maché",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9798,
+      "word": "macis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9969,
+      "word": "manes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 9970,
+      "word": "manés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10018,
+      "word": "manús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10030,
+      "word": "maquis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10136,
+      "word": "mates",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10141,
+      "word": "matiné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10226,
+      "word": "mediopié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10238,
+      "word": "meiosis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10266,
+      "word": "melis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10291,
+      "word": "menés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10306,
+      "word": "menos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10349,
+      "word": "mesías",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10394,
+      "word": "micuré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10482,
+      "word": "miosis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10485,
+      "word": "miquis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10509,
+      "word": "misis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10565,
+      "word": "modus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10587,
+      "word": "moisés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10639,
+      "word": "monís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10885,
+      "word": "mutis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10906,
+      "word": "nacas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 10962,
+      "word": "nares",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11006,
+      "word": "ndowé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11023,
+      "word": "negus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11029,
+      "word": "neles",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11083,
+      "word": "nevus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11109,
+      "word": "nipis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11113,
+      "word": "nipos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11143,
+      "word": "noesis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11153,
+      "word": "nomás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11163,
+      "word": "nones",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11165,
+      "word": "nonius",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11181,
+      "word": "notas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11356,
+      "word": "ojuelos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11482,
+      "word": "oranés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11509,
+      "word": "oremus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11544,
+      "word": "orobias",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11599,
+      "word": "otitis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11681,
+      "word": "pagaré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11748,
+      "word": "paletó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11771,
+      "word": "paltó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11901,
+      "word": "parias",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11905,
+      "word": "paripé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11910,
+      "word": "parné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11916,
+      "word": "parqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11953,
+      "word": "paspié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 11973,
+      "word": "patas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12021,
+      "word": "pavés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12040,
+      "word": "payés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12136,
+      "word": "pelis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12224,
+      "word": "periné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12231,
+      "word": "perlé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12240,
+      "word": "peroné",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12244,
+      "word": "perqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12371,
+      "word": "pifas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12425,
+      "word": "pindó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12555,
+      "word": "pitipié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12594,
+      "word": "plaqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12599,
+      "word": "plató",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12641,
+      "word": "poché",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12680,
+      "word": "polis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12713,
+      "word": "ponqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12720,
+      "word": "popés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12733,
+      "word": "pororó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12739,
+      "word": "porqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12751,
+      "word": "posapié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12839,
+      "word": "proís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12859,
+      "word": "psoas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12865,
+      "word": "pubes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12870,
+      "word": "pubis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 12933,
+      "word": "punzó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13006,
+      "word": "quepis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13028,
+      "word": "quiché",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13071,
+      "word": "quinqué",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13095,
+      "word": "quizás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13251,
+      "word": "raquis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13357,
+      "word": "rebús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13406,
+      "word": "rediós",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13465,
+      "word": "rehús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13492,
+      "word": "rejús",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13569,
+      "word": "requeté",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13631,
+      "word": "revés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13722,
+      "word": "roanés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13757,
+      "word": "rococó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13768,
+      "word": "rodapié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13810,
+      "word": "romanó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13823,
+      "word": "rondó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13838,
+      "word": "roqués",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 13883,
+      "word": "ruanés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14035,
+      "word": "saguaipé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14126,
+      "word": "sanies",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14181,
+      "word": "satis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14276,
+      "word": "semis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14379,
+      "word": "siamés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14402,
+      "word": "sienés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14651,
+      "word": "sosias",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14716,
+      "word": "suflé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14773,
+      "word": "sutás",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14788,
+      "word": "tabes",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 14946,
+      "word": "tapis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15004,
+      "word": "taropé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15028,
+      "word": "tataré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15043,
+      "word": "taurios",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15141,
+      "word": "tenis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15179,
+      "word": "tereré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15205,
+      "word": "tesis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15270,
+      "word": "tifus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15294,
+      "word": "timbó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15334,
+      "word": "tiquis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15342,
+      "word": "tirapié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15364,
+      "word": "tisis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15375,
+      "word": "titís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15501,
+      "word": "torés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15590,
+      "word": "tremó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15621,
+      "word": "tripié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15667,
+      "word": "tuanis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15814,
+      "word": "unguis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15875,
+      "word": "usarcé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15905,
+      "word": "uveítis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15957,
+      "word": "valais",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 15983,
+      "word": "vamos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16072,
+      "word": "velís",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16104,
+      "word": "venus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16108,
+      "word": "veras",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16119,
+      "word": "vergé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16174,
+      "word": "vienés",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16185,
+      "word": "vigués",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16194,
+      "word": "vilos",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16238,
+      "word": "viraró",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16254,
+      "word": "virulé",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16255,
+      "word": "virus",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16318,
+      "word": "volapié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16344,
+      "word": "vuelapié",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16367,
+      "word": "yaacabó",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16370,
+      "word": "yacaré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16380,
+      "word": "yaguané",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16383,
+      "word": "yaguré",
+      "flags": [
+        "posible_forma_verbal"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16442,
+      "word": "yidis",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16478,
+      "word": "yuras",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16610,
+      "word": "zocas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    },
+    {
+      "row": 16641,
+      "word": "zopas",
+      "flags": [
+        "posible_plural"
+      ],
+      "status": "accepted"
+    }
+  ]
+}

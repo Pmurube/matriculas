@@ -1,0 +1,2 @@
+# Palabras revisadas manualmente que NO son plural ni verbo conjugado (una por línea).
+# Quita los avisos posible_plural / posible_forma_verbal.

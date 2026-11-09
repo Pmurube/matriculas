@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "baseUrl": "../..",
+    "paths": { "@supabase/supabase-js": ["scripts/local-validation/types/@supabase/supabase-js/index.d.ts"] }
+  },
+  "include": ["../../src/game", "../../netlify", "../../scripts/*.ts", "../../scripts/lib", "../../tests", "../../vitest.config.ts", "../../src/lib/local-store.ts"]
+}

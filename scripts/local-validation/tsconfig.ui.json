@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "baseUrl": "../..",
+    "paths": {
+      "@supabase/supabase-js": ["scripts/local-validation/types/@supabase/supabase-js/index.d.ts"],
+      "react": ["scripts/local-validation/types/react/index.d.ts"],
+      "react/jsx-runtime": ["scripts/local-validation/types/react/index.d.ts"],
+      "react-dom/client": ["scripts/local-validation/types/react/index.d.ts"]
+    }
+  },
+  "include": ["../../src", "./types/react/index.d.ts"]
+}
