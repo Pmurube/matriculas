@@ -52,11 +52,16 @@ export default function App() {
   const pulse = game.feedback && (fb?.kind === 'correct' ? { kind: 'pop' as const, id: game.feedback.id } : fb?.kind === 'wrong' ? { kind: 'shake' as const, id: game.feedback.id } : null);
 
   const start = () => void game.start(mode);
+  /** Logo = volver a la pantalla principal (salvo durante el segundo en que se valida una partida). */
+  const goHome = () => {
+    setOverlay(null);
+    if (game.phase !== 'submitting' && game.phase !== 'starting') game.reset();
+  };
 
   return (
     <div className="mx-auto min-h-dvh max-w-4xl sm:px-4 sm:py-6">
       <div className="min-h-dvh bg-white sm:min-h-0 sm:rounded-3xl sm:border sm:border-ink/10 sm:shadow-[0_20px_60px_-30px_#0004]">
-        <Header open={setOverlay} />
+        <Header open={setOverlay} onHome={goHome} />
         <main className="space-y-5 px-4 py-5 sm:px-8 sm:py-7">
           {dictError && <p role="alert" className="rounded-xl bg-warn-soft p-4 text-sm text-warn">No se pudo cargar el diccionario. Recarga la página.</p>}
           {game.notice && <p role="status" className="rounded-xl bg-asphalt p-3 text-sm">{game.notice}</p>}
@@ -81,7 +86,7 @@ export default function App() {
               </div>
               <GameHud state={st} remainingMs={game.remainingMs} />
               <Plate score={st.score} pattern={plate?.pattern ?? 'fin'} pulse={pulse} />
-              {plate && <ConsonantHint pattern={plate.pattern} />}
+              {plate && <ConsonantHint key={`${st.index}-${plate.pattern}`} pattern={plate.pattern} />}
               <AnswerForm onSubmit={game.submitWord} onPass={game.pass} disabled={game.phase !== 'playing'} resetKey={st.index} />
               {game.phase === 'submitting' ? <p role="status" className="text-center text-sm font-bold">Validando partida…</p> : <FeedbackBar feedback={game.feedback} mode={st.mode} />}
               <StatCards score={st.score} best={best} onRanking={() => setOverlay('ranking')} rankingAvailable={online} />

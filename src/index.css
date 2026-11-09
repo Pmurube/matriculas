@@ -1,6 +1,18 @@
 @import "tailwindcss";
 
 /*
+ * Tipografía oficial de las matrículas españolas. Coloca el archivo en public/fonts/MESPREG.ttf
+ * (no se incluye en el repositorio por licencia). Si falta, se usa una condensada del sistema.
+ */
+@font-face {
+  font-family: "MESPREG";
+  src: url("/fonts/MESPREG.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
  * Lenguaje visual derivado de la matrícula española: blanco reflectante, borde negro,
  * banda azul UE, tipografía condensada; señalética de carretera para los modos.
  */
@@ -17,7 +29,7 @@
   --color-warn: #b42318;
   --color-warn-soft: #fdecea;
   --color-muted: #55565c;
-  --font-plate: "DIN Condensed", "Barlow Condensed", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-plate: "MESPREG", "DIN Condensed", "Barlow Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --animate-pop: pop 260ms cubic-bezier(.2, .9, .3, 1.3);
   --animate-shake: shake 320ms ease-in-out;
@@ -56,24 +68,9 @@
 /* Tailwind 4: las clases propias reutilizables se declaran con @utility. */
 @utility plate-chars {
   font-family: var(--font-plate);
-  font-stretch: condensed;
-  font-weight: 700;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.06em;
   line-height: 1;
-}
-/* Tamaño de caracteres relativo al ancho de la matrícula (container query units). */
-@utility plate-frame {
-  container-type: inline-size;
-}
-@utility plate-size {
-  font-size: 15.5cqw;
-}
-@utility plate-size-sm {
-  font-size: 9cqw;
-}
-@utility plate-e-size {
-  font-size: 5cqw;
 }
 @utility road-dash {
   background-image: repeating-linear-gradient(90deg, var(--color-ink) 0 18px, transparent 18px 30px);
