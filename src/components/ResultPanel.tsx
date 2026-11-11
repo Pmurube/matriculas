@@ -3,6 +3,7 @@ import { MODE_LABEL } from '../game/config.ts';
 import type { GameState } from '../game/engine.ts';
 import { plateLetters } from '../game/normalize.ts';
 import type { GameResult } from '../hooks/useGame.ts';
+import { BadgeArt } from './BadgeArt.tsx';
 
 const PERIOD_LABEL = { daily: 'hoy', monthly: 'este mes', alltime: 'histórico' } as const;
 
@@ -43,14 +44,19 @@ export function ResultPanel({ result, state, onReplay, onChangeMode }: { result:
       )}
       {ach.length > 0 && (
         <div className="card p-4" data-testid="result-badges">
-          <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-muted">Insignias desbloqueadas</p>
-          <ul className="flex flex-wrap gap-2">
-            {ach.map((a) => <li key={a.id} className="chip bg-ink text-white">{a.name}</li>)}
+          <p className="mb-3 text-[10px] font-bold uppercase tracking-widest text-muted">Insignias desbloqueadas</p>
+          <ul className="flex flex-wrap gap-4">
+            {ach.map((a) => (
+              <li key={a.id} className="animate-pop flex w-20 flex-col items-center gap-1 text-center">
+                <BadgeArt id={a.id} className="h-16 w-16" />
+                <span className="text-xs font-bold leading-tight">{a.name}</span>
+              </li>
+            ))}
           </ul>
         </div>
       )}
       <details className="card p-4 text-sm">
-        <summary className="cursor-pointer font-bold">Matrículas ({solved.length} resueltas · {passed.length} pasadas)</summary>
+        <summary className="font-bold">Matrículas ({solved.length} resueltas · {passed.length} pasadas)</summary>
         <ul className="mt-3 grid gap-1 sm:grid-cols-2">
           {state.rounds.map((r) => (
             <li key={r.index} className="flex justify-between gap-2 border-b border-ink/5 py-1">

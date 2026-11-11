@@ -3,6 +3,7 @@ import { ACHIEVEMENTS, type AchievementId } from '../game/achievements.ts';
 import { MODE_LABEL, MODES } from '../game/config.ts';
 import { fetchMyAchievements } from '../lib/api.ts';
 import { readStats } from '../lib/local-store.ts';
+import { BadgeArt } from './BadgeArt.tsx';
 import { Modal } from './Modal.tsx';
 
 export function BadgesModal({ onClose, online }: { onClose: () => void; online: boolean }) {
@@ -16,6 +17,30 @@ export function BadgesModal({ onClose, online }: { onClose: () => void; online: 
       .then((list) => setOwned(Object.fromEntries(list.map((a) => [a.achievement_id, a.times_won]))))
       .catch(() => undefined);
   }, [online]);
+  const progress = ACHIEVEMENTS.filter((a) => a.kind === 'progress');
+  const competitive = ACHIEVEMENTS.filter((a) => a.kind === 'competitive');
+  const renderList = (list: typeof ACHIEVEMENTS) => (
+    <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3" data-testid="badges-list" data-kind={list[0]?.kind}>
+      {list.map((a) => {
+        const times = owned[a.id];
+        const on = Boolean(times);
+        return (
+          <li
+            key={a.id}
+            className={`relative flex flex-col items-center gap-2 rounded-2xl border p-3 text-center ${on ? 'border-ink/15 bg-white' : 'border-dashed border-ink/20 bg-asphalt/40'}`}
+            data-unlocked={on}
+          >
+            <BadgeArt id={a.id} locked={!on} className="h-16 w-16" />
+            <span className="text-sm font-black leading-tight">{a.name}</span>
+            <span className="text-xs leading-snug text-muted">{a.description}</span>
+            <span className={`mt-auto text-[11px] font-bold uppercase tracking-wide ${on ? 'text-road' : 'text-muted'}`}>
+              {on ? (times! > 1 ? `Conseguida ×${times}` : 'Conseguida') : 'Bloqueada'}
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
   return (
     <Modal title="Insignias y estadísticas" onClose={onClose} wide>
       <section aria-label="Estadísticas" className="mb-6 grid grid-cols-2 gap-2 sm:grid-cols-4">
@@ -33,22 +58,10 @@ export function BadgesModal({ onClose, online }: { onClose: () => void; online: 
         ))}
       </section>
       <p className="mb-3 text-xs text-muted">Estadísticas de este dispositivo. {online ? 'Las insignias vienen de tu cuenta.' : 'Modo local: insignias guardadas en este dispositivo.'}</p>
-      <ul className="grid gap-2 sm:grid-cols-2" data-testid="badges-list">
-        {ACHIEVEMENTS.map((a) => {
-          const times = owned[a.id];
-          const on = Boolean(times);
-          return (
-            <li key={a.id} className={`flex items-center gap-3 rounded-xl border p-3 ${on ? 'border-ink bg-white' : 'border-dashed border-ink/20 opacity-70'}`} data-unlocked={on}>
-              <span className={`plate-chars grid h-12 min-w-12 place-items-center rounded-lg border-2 px-1 text-sm ${on ? 'border-ink bg-plate' : 'border-ink/20'}`} aria-hidden>{a.icon}</span>
-              <span className="flex-1">
-                <span className="block text-sm font-black">{a.name}{a.kind === 'competitive' ? ' 🏆' : ''}</span>
-                <span className="block text-xs text-muted">{a.description}</span>
-              </span>
-              <span className="text-xs font-bold">{on ? (times! > 1 ? `×${times}` : 'Conseguida') : 'Bloqueada'}</span>
-            </li>
-          );
-        })}
-      </ul>
+      <h3 className="mb-2 text-xs font-black uppercase tracking-widest">Insignias</h3>
+      {renderList(progress)}
+      <h3 className="mb-2 mt-5 text-xs font-black uppercase tracking-widest">Campeones</h3>
+      {renderList(competitive)}
     </Modal>
   );
 }

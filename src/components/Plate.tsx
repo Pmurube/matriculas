@@ -1,28 +1,16 @@
 import { formatScore, plateLetters } from '../game/normalize.ts';
 
 /**
- * Matrícula protagonista sobre la imagen oficial vacía (public/brand/matricula.png, 419×99).
- * El texto se dibuja en SVG con el mismo sistema de coordenadas que la imagen, así que
- * tamaño y centrado no dependen del ancho de pantalla. `textLength` fija el ancho exacto
- * de cada grupo (4 cifras y 3 letras) como en la referencia.
+ * Matrícula protagonista construida en HTML/CSS (sin imagen): borde negro, banda azul lisa
+ * y texto en MESPREG. Estilos en src/index.css (.plate, .plate-body, .plate-band, .plate-text).
  */
-export const PLATE_W = 419;
-export const PLATE_H = 99;
-/** Ajuste fino de la tipografía (unidades de la imagen). Si cambias de fuente, toca solo esto. */
-const TEXT = {
-  baseline: 76, // línea base: las mayúsculas quedan centradas en la zona blanca
-  fontSize: 74, // con MESPREG la altura de mayúscula queda ≈ 53 u (54 % del alto, como la referencia)
-  digits: { x: 63, width: 170 }, // "0346"
-  letters: { x: 278, width: 117 }, // "BRC"
-};
-
 interface PlateProps {
   score: number;
   pattern: string;
   /** clave para relanzar la animación */
   pulse?: { kind: 'pop' | 'shake'; id: number } | null;
   label?: string;
-  /** Colorea cifras y letras (para el modal Cómo jugar). */
+  /** Colorea cifras y letras (modal Cómo jugar). */
   explain?: boolean;
   className?: string;
 }
@@ -34,41 +22,23 @@ export function Plate({ score, pattern, pulse, label, explain = false, className
   return (
     <figure
       key={pulse?.id ?? 0}
-      className={`mx-auto w-full max-w-[560px] ${anim} ${className}`}
+      className={`plate mx-auto max-w-[560px] ${anim} ${className}`}
       aria-label={label ?? `Matrícula ${digits} ${letters}. Puntuación ${Number(digits)}. Consonantes ${letters.split('').join(', ')}.`}
       role="img"
       data-testid="plate"
     >
-      <svg viewBox={`0 0 ${PLATE_W} ${PLATE_H}`} className="block h-auto w-full drop-shadow-[0_10px_18px_rgba(0,0,0,0.18)]" aria-hidden>
-        <image href="/brand/matricula.png" x="0" y="0" width={PLATE_W} height={PLATE_H} preserveAspectRatio="none" />
-        <g className="font-plate" fontSize={TEXT.fontSize}>
-          <text
-            x={TEXT.digits.x}
-            y={TEXT.baseline}
-            textLength={TEXT.digits.width}
-            lengthAdjust="spacingAndGlyphs"
-            fill={explain ? 'var(--color-road)' : 'var(--color-ink)'}
-            data-testid="plate-score"
-          >
-            {digits}
-          </text>
-          <text
-            x={TEXT.letters.x}
-            y={TEXT.baseline}
-            textLength={TEXT.letters.width}
-            lengthAdjust="spacingAndGlyphs"
-            fill={explain ? 'var(--color-combo)' : 'var(--color-ink)'}
-            data-testid="plate-letters"
-          >
-            {letters}
-          </text>
-        </g>
-      </svg>
+      <div className="plate-body" aria-hidden>
+        <div className="plate-band" />
+        <div className="plate-text plate-chars">
+          <span className={explain ? 'text-road' : 'text-ink'} data-testid="plate-score">{digits}</span>
+          <span className={explain ? 'text-combo' : 'text-ink'} data-testid="plate-letters">{letters}</span>
+        </div>
+      </div>
     </figure>
   );
 }
 
-/** Recordatorio de las consonantes de la matrícula ACTIVA. Se re-monta en cada matrícula nueva. */
+/** Recordatorio de las consonantes de la matrícula activa. Se re-monta en cada matrícula nueva. */
 export function ConsonantHint({ pattern }: { pattern: string }) {
   const colors = ['bg-road', 'bg-ink', 'bg-combo'];
   const letters = plateLetters(pattern).split('');
