@@ -1,35 +1,32 @@
 @import "tailwindcss";
 
 /*
- * Tipografía oficial de las matrículas españolas. Coloca el archivo en public/fonts/MESPREG.ttf
- * (no se incluye en el repositorio por licencia). Si falta, se usa una condensada del sistema.
+ * Tipografía oficial de matrícula. El archivo va en src/assets/fonts/MESPREG.ttf:
+ * así Vite lo empaqueta con hash y el build FALLA si falta (en vez de caer en silencio
+ * a otra fuente, que es lo que pasaba con public/fonts).
  */
 @font-face {
   font-family: "MESPREG";
-  src: url("/fonts/MESPREG.ttf") format("truetype");
-  font-weight: normal;
+  src: url("./assets/fonts/MESPREG.ttf");
+  font-weight: 100 900;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
-/*
- * Lenguaje visual derivado de la matrícula española: blanco reflectante, borde negro,
- * banda azul UE, tipografía condensada; señalética de carretera para los modos.
- */
 @theme {
   --color-plate: #fbfbf8;
   --color-ink: #0d0d0f;
   --color-asphalt: #eceae4;
-  --color-eu: #003399;
+  --color-eu: #004eb0;
   --color-star: #ffcc00;
   --color-road: #0a7a3c;
   --color-road-soft: #e6f3eb;
   --color-combo: #5a2bd3;
   --color-combo-soft: #efe9fd;
+  --color-gold: #c9971c;
   --color-warn: #b42318;
   --color-warn-soft: #fdecea;
   --color-muted: #55565c;
-  --font-plate: "MESPREG", "DIN Condensed", "Barlow Condensed", "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --animate-pop: pop 260ms cubic-bezier(.2, .9, .3, 1.3);
   --animate-shake: shake 320ms ease-in-out;
@@ -59,19 +56,73 @@
     @apply bg-asphalt text-ink font-sans antialiased;
     min-height: 100dvh;
   }
+  /* Tailwind 4 pone cursor: default en los botones. Restauramos la mano en todo lo clicable. */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [role="tab"],
+  [role="radio"]:not(:disabled),
+  summary,
+  a[href],
+  label[for] {
+    cursor: pointer;
+  }
   :focus-visible {
     outline: 3px solid var(--color-eu);
     outline-offset: 2px;
   }
 }
 
-/* Tailwind 4: las clases propias reutilizables se declaran con @utility. */
-@utility plate-chars {
-  font-family: var(--font-plate);
+/* Fuente de matrícula como CSS plano (no depende de que Tailwind genere la variable). */
+.font-plate,
+.plate-chars {
+  font-family: "MESPREG", "DIN Condensed", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  font-synthesis: none;
+}
+.plate-chars {
   font-variant-numeric: tabular-nums;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   line-height: 1;
 }
+
+/*
+ * Matrícula en HTML (proporción de tu referencia: 419 × 99). Todo se mide en cqw
+ * (% del ancho de la matrícula), así que escala igual en cualquier pantalla y no pixela.
+ */
+.plate {
+  container-type: inline-size;
+  width: 100%;
+}
+.plate-body {
+  display: flex;
+  aspect-ratio: 419 / 99;
+  border: 1cqw solid var(--color-ink);
+  border-radius: 2.4cqw;
+  background: #fdfcfc;
+  overflow: hidden;
+  box-shadow: 0 0.4cqw 0 #0002, 0 3cqw 6cqw -3cqw #0006;
+}
+.plate-band {
+  width: 11.5cqw;
+  flex: none;
+  background: var(--color-eu);
+}
+.plate-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7cqw;
+  padding-right: 1.5cqw;
+  font-size: 18cqw;
+  white-space: nowrap;
+}
+.plate-text > span {
+  display: block;
+  /* Centra ópticamente las mayúsculas (Chrome/Edge 133+, Safari 18.2+); otros navegadores lo ignoran. */
+  text-box: trim-both cap alphabetic;
+}
+
 @utility road-dash {
   background-image: repeating-linear-gradient(90deg, var(--color-ink) 0 18px, transparent 18px 30px);
   height: 3px;
