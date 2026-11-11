@@ -107,20 +107,34 @@
   flex: none;
   background: var(--color-eu);
 }
-.plate-text {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 7cqw;
-  padding-right: 1.5cqw;
-  font-size: 18cqw;
-  white-space: nowrap;
+/*
+ * Texto en casillas fijas, como en una matrícula real: cada carácter se centra en su
+ * propia posición (medidas tomadas de la referencia, en % del ancho de la matrícula).
+ * Tamaño calculado con la altura de mayúscula real de MESPREG (≈ 0,71 em) para que
+ * los caracteres ocupen la mitad del alto, como en la referencia.
+ * Para ajustar a ojo, toca solo estas variables.
+ */
+.plate {
+  --plate-font-size: 16.5cqw;
+  --plate-text-y: 50%;
+  --plate-c1: 19.2cqw;
+  --plate-c2: 30.3cqw;
+  --plate-c3: 41.9cqw;
+  --plate-c4: 52.8cqw;
+  --plate-c5: 71.3cqw;
+  --plate-c6: 81.9cqw;
+  --plate-c7: 92.1cqw;
 }
-.plate-text > span {
-  display: block;
-  /* Centra ópticamente las mayúsculas (Chrome/Edge 133+, Safari 18.2+); otros navegadores lo ignoran. */
-  text-box: trim-both cap alphabetic;
+.plate-body {
+  position: relative;
+}
+.plate-char {
+  position: absolute;
+  top: var(--plate-text-y);
+  transform: translate(-50%, -50%);
+  font-size: var(--plate-font-size);
+  line-height: 1;
+  white-space: nowrap;
 }
 
 @utility road-dash {
