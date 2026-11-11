@@ -1,8 +1,9 @@
 import { formatScore, plateLetters } from '../game/normalize.ts';
 
 /**
- * Matrícula protagonista construida en HTML/CSS (sin imagen): borde negro, banda azul lisa
- * y texto en MESPREG. Estilos en src/index.css (.plate, .plate-body, .plate-band, .plate-text).
+ * Matrícula construida en HTML/CSS: borde negro, banda azul lisa y texto en MESPREG.
+ * Cada carácter ocupa una casilla fija (variables --plate-c1…c7 en src/index.css),
+ * igual que en las matrículas reales, así el espaciado no depende de la fuente.
  */
 interface PlateProps {
   score: number;
@@ -19,6 +20,8 @@ export function Plate({ score, pattern, pulse, label, explain = false, className
   const digits = formatScore(score);
   const letters = plateLetters(pattern);
   const anim = pulse ? (pulse.kind === 'pop' ? 'animate-pop' : 'animate-shake') : '';
+  const digitColor = explain ? 'text-road' : 'text-ink';
+  const letterColor = explain ? 'text-combo' : 'text-ink';
   return (
     <figure
       key={pulse?.id ?? 0}
@@ -27,12 +30,17 @@ export function Plate({ score, pattern, pulse, label, explain = false, className
       role="img"
       data-testid="plate"
     >
-      <div className="plate-body" aria-hidden>
+      <div className="plate-body plate-chars" aria-hidden>
         <div className="plate-band" />
-        <div className="plate-text plate-chars">
-          <span className={explain ? 'text-road' : 'text-ink'} data-testid="plate-score">{digits}</span>
-          <span className={explain ? 'text-combo' : 'text-ink'} data-testid="plate-letters">{letters}</span>
-        </div>
+        {/* Textos completos (ocultos) para tests y lectores; los visibles van por casillas. */}
+        <span className="sr-only" data-testid="plate-score">{digits}</span>
+        <span className="sr-only" data-testid="plate-letters">{letters}</span>
+        {Array.from(digits).map((ch, i) => (
+          <span key={`d${i}`} className={`plate-char ${digitColor}`} style={{ left: `var(--plate-c${i + 1})` }}>{ch}</span>
+        ))}
+        {Array.from(letters).map((ch, i) => (
+          <span key={`l${i}`} className={`plate-char ${letterColor}`} style={{ left: `var(--plate-c${i + 5})` }}>{ch}</span>
+        ))}
       </div>
     </figure>
   );
