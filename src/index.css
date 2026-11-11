@@ -115,7 +115,9 @@
  * Para ajustar a ojo, toca solo estas variables.
  */
 .plate {
-  --plate-font-size: 16.5cqw;
+  --plate-font-size: 16cqw;
+  /* MESPREG es más estrecha que la referencia: ensanchamos el glifo sin tocar la altura. */
+  --plate-stretch: 1.25;
   --plate-text-y: 50%;
   --plate-c1: 19.2cqw;
   --plate-c2: 30.3cqw;
@@ -131,7 +133,7 @@
 .plate-char {
   position: absolute;
   top: var(--plate-text-y);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scaleX(var(--plate-stretch));
   font-size: var(--plate-font-size);
   line-height: 1;
   white-space: nowrap;
