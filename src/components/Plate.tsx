@@ -15,7 +15,7 @@ const PLATE = {
   tracking: '0.07em', // espacio entre caracteres de un mismo grupo
   groupGap: '0.4em', // hueco entre «0346» y «BRC»
   offsetX: '0cqw', // mover el texto a izquierda (–) o derecha (+)
-  offsetY: '0cqw', // mover el texto arriba (–) o abajo (+)
+  offsetY: '2.8cqw', // mover el texto arriba (–) o abajo (+)
   band: '11.5cqw', // ancho de la banda azul
   blue: '#004eb0',
   ink: '#0d0d0f',
