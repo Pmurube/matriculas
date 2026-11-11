@@ -1,0 +1,57 @@
+/* ============================================================================
+ * MATRÍCULA · CONTROLES DE AJUSTE
+ * Cambia solo estos valores para afinar. Todo es proporcional al ancho de la
+ * matrícula (cqw = 1 % del ancho), así se ve igual en móvil y escritorio.
+ * ========================================================================== */
+.plate {
+  --plate-font-size: 21cqw;   /* tamaño de cifras y letras */
+  --plate-tracking: 0.07em;   /* espacio entre caracteres de un mismo grupo */
+  --plate-group-gap: 0.4em;  /* espacio entre «0346» y «BRC» */
+  --plate-offset-x: 0cqw;     /* mover todo el texto a izquierda (–) o derecha (+) */
+  --plate-offset-y: 0cqw;     /* mover todo el texto arriba (–) o abajo (+) */
+  --plate-band: 11.5cqw;      /* ancho de la banda azul */
+  --plate-blue: #004eb0;
+}
+/* ========================================================================== */
+
+.plate {
+  container-type: inline-size;
+  width: 100%;
+}
+.plate-body {
+  display: flex;
+  aspect-ratio: 419 / 99;
+  border: 1cqw solid #0d0d0f;
+  border-radius: 2.4cqw;
+  background: #fdfcfc;
+  overflow: hidden;
+  box-shadow: 0 0.4cqw 0 #0002, 0 3cqw 6cqw -3cqw #0006;
+}
+.plate-band {
+  width: var(--plate-band);
+  flex: none;
+  background: var(--plate-blue);
+}
+.plate-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--plate-group-gap);
+  font-family: "MESPREG", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  font-synthesis: none;
+  font-size: var(--plate-font-size);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+  transform: translate(var(--plate-offset-x), var(--plate-offset-y));
+}
+.plate-group {
+  display: block;
+  letter-spacing: var(--plate-tracking);
+  /* compensa el espacio que letter-spacing añade tras el último carácter */
+  margin-right: calc(-1 * var(--plate-tracking));
+  /* centra ópticamente las mayúsculas (Chrome/Edge 133+, Safari 18.2+) */
+  text-box: trim-both cap alphabetic;
+}

@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 /*
- * Tipografía oficial de matrícula. El archivo va en src/assets/fonts/MESPREG.ttf:
- * así Vite lo empaqueta con hash y el build FALLA si falta (en vez de caer en silencio
- * a otra fuente, que es lo que pasaba con public/fonts).
+ * Tipografía oficial de matrícula: src/assets/fonts/MESPREG.ttf (Vite la empaqueta;
+ * si falta, el build falla en lugar de usar otra fuente en silencio).
+ * Los estilos y controles de la matrícula están en src/plate.css.
  */
 @font-face {
   font-family: "MESPREG";
@@ -72,7 +72,7 @@
   }
 }
 
-/* Fuente de matrícula como CSS plano (no depende de que Tailwind genere la variable). */
+/* Fuente de matrícula para textos fuera de la placa (resultados, ejemplos, puntuación). */
 .font-plate,
 .plate-chars {
   font-family: "MESPREG", "DIN Condensed", "Arial Narrow", Arial, sans-serif;
@@ -83,60 +83,6 @@
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.04em;
   line-height: 1;
-}
-
-/*
- * Matrícula en HTML (proporción de tu referencia: 419 × 99). Todo se mide en cqw
- * (% del ancho de la matrícula), así que escala igual en cualquier pantalla y no pixela.
- */
-.plate {
-  container-type: inline-size;
-  width: 100%;
-}
-.plate-body {
-  display: flex;
-  aspect-ratio: 419 / 99;
-  border: 1cqw solid var(--color-ink);
-  border-radius: 2.4cqw;
-  background: #fdfcfc;
-  overflow: hidden;
-  box-shadow: 0 0.4cqw 0 #0002, 0 3cqw 6cqw -3cqw #0006;
-}
-.plate-band {
-  width: 11.5cqw;
-  flex: none;
-  background: var(--color-eu);
-}
-/*
- * Texto en casillas fijas, como en una matrícula real: cada carácter se centra en su
- * propia posición (medidas tomadas de la referencia, en % del ancho de la matrícula).
- * Tamaño calculado con la altura de mayúscula real de MESPREG (≈ 0,71 em) para que
- * los caracteres ocupen la mitad del alto, como en la referencia.
- * Para ajustar a ojo, toca solo estas variables.
- */
-.plate {
-  --plate-font-size: 16cqw;
-  /* MESPREG es más estrecha que la referencia: ensanchamos el glifo sin tocar la altura. */
-  --plate-stretch: 1.25;
-  --plate-text-y: 50%;
-  --plate-c1: 19.2cqw;
-  --plate-c2: 30.3cqw;
-  --plate-c3: 41.9cqw;
-  --plate-c4: 52.8cqw;
-  --plate-c5: 71.3cqw;
-  --plate-c6: 81.9cqw;
-  --plate-c7: 92.1cqw;
-}
-.plate-body {
-  position: relative;
-}
-.plate-char {
-  position: absolute;
-  top: var(--plate-text-y);
-  transform: translate(-50%, -50%) scaleX(var(--plate-stretch));
-  font-size: var(--plate-font-size);
-  line-height: 1;
-  white-space: nowrap;
 }
 
 @utility road-dash {
