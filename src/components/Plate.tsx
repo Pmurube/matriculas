@@ -1,10 +1,58 @@
+import type { CSSProperties } from 'react';
 import { formatScore, plateLetters } from '../game/normalize.ts';
 
 /**
- * Matrícula construida en HTML/CSS: borde negro, banda azul lisa y texto en MESPREG.
- * Cada carácter ocupa una casilla fija (variables --plate-c1…c7 en src/index.css),
- * igual que en las matrículas reales, así el espaciado no depende de la fuente.
+ * Matrícula autocontenida: todos los estilos van aquí dentro (no depende de ningún .css).
+ *
+ * ── CONTROLES DE AJUSTE ─────────────────────────────────────────────────────
+ * Unidades "cqw" = 1 % del ancho de la matrícula (se ve igual en móvil y escritorio).
  */
+const PLATE = {
+  fontSize: '21cqw', // tamaño de cifras y letras
+  tracking: '0.07em', // espacio entre caracteres de un mismo grupo
+  groupGap: '0.4em', // hueco entre «0346» y «BRC»
+  offsetX: '0cqw', // mover el texto a izquierda (–) o derecha (+)
+  offsetY: '0cqw', // mover el texto arriba (–) o abajo (+)
+  band: '11.5cqw', // ancho de la banda azul
+  blue: '#004eb0',
+  ink: '#0d0d0f',
+  green: '#0a7a3c',
+  purple: '#5a2bd3',
+};
+// ────────────────────────────────────────────────────────────────────────────
+
+const FONT = '"MESPREG", "Arial Narrow", Arial, sans-serif';
+
+const S = {
+  figure: { containerType: 'inline-size', width: '100%', maxWidth: 560, margin: '0 auto' } as CSSProperties,
+  body: {
+    display: 'flex',
+    aspectRatio: '419 / 99',
+    border: `1cqw solid ${PLATE.ink}`,
+    borderRadius: '2.4cqw',
+    background: '#fdfcfc',
+    overflow: 'hidden',
+    boxShadow: '0 0.4cqw 0 #0002, 0 3cqw 6cqw -3cqw #0006',
+  } as CSSProperties,
+  band: { width: PLATE.band, flex: 'none', background: PLATE.blue } as CSSProperties,
+  text: {
+    flex: 1,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: PLATE.groupGap,
+    fontFamily: FONT,
+    fontWeight: 400,
+    fontSynthesis: 'none',
+    fontSize: PLATE.fontSize,
+    fontVariantNumeric: 'tabular-nums',
+    lineHeight: 1,
+    whiteSpace: 'nowrap',
+    transform: `translate(${PLATE.offsetX}, ${PLATE.offsetY})`,
+  } as CSSProperties,
+  group: { display: 'block', letterSpacing: PLATE.tracking, marginRight: `calc(-1 * ${PLATE.tracking})` } as CSSProperties,
+};
+
 interface PlateProps {
   score: number;
   pattern: string;
@@ -20,27 +68,21 @@ export function Plate({ score, pattern, pulse, label, explain = false, className
   const digits = formatScore(score);
   const letters = plateLetters(pattern);
   const anim = pulse ? (pulse.kind === 'pop' ? 'animate-pop' : 'animate-shake') : '';
-  const digitColor = explain ? 'text-road' : 'text-ink';
-  const letterColor = explain ? 'text-combo' : 'text-ink';
   return (
     <figure
       key={pulse?.id ?? 0}
-      className={`plate mx-auto max-w-[560px] ${anim} ${className}`}
+      className={`${anim} ${className}`}
+      style={S.figure}
       aria-label={label ?? `Matrícula ${digits} ${letters}. Puntuación ${Number(digits)}. Consonantes ${letters.split('').join(', ')}.`}
       role="img"
       data-testid="plate"
     >
-      <div className="plate-body plate-chars" aria-hidden>
-        <div className="plate-band" />
-        {/* Textos completos (ocultos) para tests y lectores; los visibles van por casillas. */}
-        <span className="sr-only" data-testid="plate-score">{digits}</span>
-        <span className="sr-only" data-testid="plate-letters">{letters}</span>
-        {Array.from(digits).map((ch, i) => (
-          <span key={`d${i}`} className={`plate-char ${digitColor}`} style={{ left: `var(--plate-c${i + 1})` }}>{ch}</span>
-        ))}
-        {Array.from(letters).map((ch, i) => (
-          <span key={`l${i}`} className={`plate-char ${letterColor}`} style={{ left: `var(--plate-c${i + 5})` }}>{ch}</span>
-        ))}
+      <div style={S.body} aria-hidden>
+        <div style={S.band} />
+        <div style={S.text}>
+          <span style={{ ...S.group, color: explain ? PLATE.green : PLATE.ink }} data-testid="plate-score">{digits}</span>
+          <span style={{ ...S.group, color: explain ? PLATE.purple : PLATE.ink }} data-testid="plate-letters">{letters}</span>
+        </div>
       </div>
     </figure>
   );
