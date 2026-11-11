@@ -2,7 +2,10 @@ import type { CSSProperties } from 'react';
 import { formatScore, plateLetters } from '../game/normalize.ts';
 
 /**
- * Matrícula autocontenida: todos los estilos van aquí dentro (no depende de ningún .css).
+ * Matrícula autocontenida: estilos y tipografía van aquí dentro (no depende de ningún .css).
+ *
+ * TIPOGRAFÍA: el archivo debe estar en  public/fonts/MESPREG.ttf
+ * Comprobación: abre  https://TU-SITIO.netlify.app/fonts/MESPREG.ttf  → debe descargarse la fuente.
  *
  * ── CONTROLES DE AJUSTE ─────────────────────────────────────────────────────
  * Unidades "cqw" = 1 % del ancho de la matrícula (se ve igual en móvil y escritorio).
@@ -21,7 +24,20 @@ const PLATE = {
 };
 // ────────────────────────────────────────────────────────────────────────────
 
-const FONT = '"MESPREG", "Arial Narrow", Arial, sans-serif';
+const FONT_URL = '/fonts/MESPREG.ttf';
+const FONT_NAME = 'MatriculaMESPREG';
+
+/** Declara la fuente una sola vez, desde aquí, con un nombre propio que no choca con nada. */
+if (typeof document !== 'undefined' && !document.getElementById('plate-font')) {
+  const style = document.createElement('style');
+  style.id = 'plate-font';
+  style.textContent = `@font-face{font-family:"${FONT_NAME}";src:url("${FONT_URL}") format("truetype");font-weight:normal;font-style:normal;font-display:block;}`;
+  document.head.appendChild(style);
+  // Aviso en la consola del navegador si la fuente no carga (F12 → Console).
+  document.fonts?.load(`40px "${FONT_NAME}"`).then((faces) => {
+    if (!faces.length) console.warn(`[Matrícula] No se pudo cargar ${FONT_URL}. Revisa que exista en public/fonts/.`);
+  });
+}
 
 const S = {
   figure: { containerType: 'inline-size', width: '100%', maxWidth: 560, margin: '0 auto' } as CSSProperties,
@@ -41,9 +57,8 @@ const S = {
     alignItems: 'center',
     justifyContent: 'center',
     gap: PLATE.groupGap,
-    fontFamily: FONT,
-    fontWeight: 400,
-    fontSynthesis: 'none',
+    fontFamily: `"${FONT_NAME}", "DIN Condensed", "Arial Narrow", sans-serif`,
+    fontWeight: 'normal',
     fontSize: PLATE.fontSize,
     fontVariantNumeric: 'tabular-nums',
     lineHeight: 1,
